@@ -1,0 +1,35 @@
+.container {
+    background-color: #000000;
+    padding: 5px;
+}
+
+.row {
+    background-color: #f00;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 5px;
+
+}
+
+.column {
+    background-color: #fff;
+    border: 2px solid black;
+    width: 100%;
+    padding: 10px;
+}
+
+div {
+    column-gap: 5px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+@media only screen and (max-width:769px) {
+    .row {
+        flex-direction:column !important;
+        flex-wrap: wrap;
+    }
+    
+}

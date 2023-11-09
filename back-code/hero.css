@@ -55,7 +55,14 @@ p {
 
 p2 {
 	font-family: Comfortaa;
-	font-size: 20px;
+	font-size: 22px;
+	line-height: 2;
+	color:white;
+	font-weight: 600;
+}
+p3 {
+	font-family: Comfortaa;
+	font-size: 18px;
 	line-height: 2;
 	color:white;
 	font-weight: 600;
@@ -130,6 +137,13 @@ margin: auto;
 	p2 {
 		font-family: Comfortaa;
 		font-size: 17px;
+		line-height: 2;
+		color:white;
+		font-weight: 600;
+	}
+	p3 {
+		font-family: Comfortaa;
+		font-size: 16px;
 		line-height: 2;
 		color:white;
 		font-weight: 600;

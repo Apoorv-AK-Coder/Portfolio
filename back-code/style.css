@@ -4,7 +4,6 @@
 }
 
 .row {
-    background-color: #000;
     display: flex;
     flex-wrap: nowrap;
     padding-top: 80px;
@@ -14,9 +13,16 @@
 }
 
 .column {
-    background-color: #fff;
     width: 100%;
-    padding: 10px;
+}
+
+.c2 {
+    background-color: #323232;
+    width: 100%;
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 div {
@@ -29,6 +35,10 @@ div {
     padding: 0;
   }
 
+  ul.a {
+    list-style-type: arrow;
+  }
+
 @media only screen and (max-width:769px) {
     .row {
         flex-direction:column !important;
@@ -37,6 +47,10 @@ div {
         padding-left: 15px;
         padding-top:40px;
         padding-bottom:40px;
+    }
+    .c2 {
+        flex-direction:column !important;
+        flex-wrap: wrap;
     }
     
 }

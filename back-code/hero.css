@@ -1,0 +1,26 @@
+.hero-row {
+	margin:auto;
+	width:auto;
+	background-image: url("/image/img-02.jpg");
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: nowrap;
+	max-width:1300px;
+	margin:auto;
+}
+
+.column2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    margin: auto;
+    box-align: center;
+}

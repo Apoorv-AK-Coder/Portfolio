@@ -1,32 +1,30 @@
-.container {
-    background-color: #000;
+.header-container {
+    background-color: #323232;
 	margin:0px;
 }
 
-.row {
-    background-color: #000;
+.header-row {
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 80px;
-	padding-bottom: 80px;
+    padding-top: 20px;
+	padding-bottom: 20px;
 	max-width:1280px;
 	margin:auto;
+    justify-content: space-between;
 }
 
-.column {
-    background-color: #fff;
+.header-column {
     width: 100%;
-    padding: 10px;
 }
 
-div {
-    column-gap: 20px;
+.logo{
+    width: 50px;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Make sure the z-index is higher than other elements on the page */
   }
 
 @media only screen and (max-width:769px) {

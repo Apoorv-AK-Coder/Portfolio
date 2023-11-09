@@ -7,8 +7,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 .row2 {
@@ -61,10 +61,11 @@ p2 {
 	font-weight: 600;
 }
 
-img {
+.img2 {
 border-radius: 200px;
 width: 400px;
-float: right;
+display: block;
+margin: auto;
 }
 
 
@@ -75,10 +76,11 @@ float: right;
 		padding-bottom: 5%;
 	}
 
-	img {
+	.img2 {
 		border-radius: 150px;
 		width: 300px;
-		float: left;
+		display:block;
+		align-items: left;
 		}
 
 	.row2 {

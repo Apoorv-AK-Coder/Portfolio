@@ -17,7 +17,7 @@
 }
 
 .c2 {
-    background-color: #323232;
+    background-color: #141414;
     width: 100%;
     padding: 20px;
     margin-top: 15px;
@@ -37,6 +37,17 @@ div {
 
   ul.a {
     list-style-type: arrow;
+  }
+
+  .totalbar{
+    width: 100%;
+    background-color: #fff;
+    height: 10px;
+  }
+  .accbar {
+    width: 80%;
+    background-color: #DEAD1A;
+    height:10px;
   }
 
 @media only screen and (max-width:769px) {

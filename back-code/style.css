@@ -50,6 +50,11 @@ div {
     height:10px;
   }
 
+  .skills {
+    width: 128px;
+    margin: 5px;
+  }
+
 @media only screen and (max-width:769px) {
     .row {
         flex-direction:column !important;
@@ -63,5 +68,9 @@ div {
         flex-direction:column !important;
         flex-wrap: wrap;
     }
+    .skills {
+        width: 105px;
+        margin: 5px;
+      }
     
 }

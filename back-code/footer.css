@@ -1,0 +1,14 @@
+.logo1{
+    width: 100px;
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+a:link {
+    color:E8c740;
+}
+
+a:hover {
+    color:DEAD1A;
+}

@@ -70,24 +70,3 @@ div {
 	background-size: cover;
 	position: relative;
 }
-
-
-@media only screen and (max-width:769px) {
-    .row {
-        flex-direction:column !important;
-        flex-wrap: wrap;
-        padding-right: 15px;
-        padding-left: 15px;
-        padding-top:40px;
-        padding-bottom:40px;
-    }
-    .c2 {
-        flex-direction:column !important;
-        flex-wrap: wrap;
-    }
-    .skills {
-        width: 105px;
-        margin: 5px;
-      }
-    
-}

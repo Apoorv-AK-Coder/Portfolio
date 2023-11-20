@@ -26,6 +26,37 @@ div { column-gap: 20px; }
 
 ul.a { list-style-type: arrow; }
 
+.c2
+{
+  background-color: #333647;
+  width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#c2 {
+  background-color: #333647;
+  width: 100%;
+  padding: 20px;
+  margin-top: 15px;
+}  
+
+.skills 
+{
+  width: 125px;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.skills:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
 /* common css end */
 
 /* header */
@@ -37,11 +68,7 @@ ul.a { list-style-type: arrow; }
   z-index: 1000;
 }
 
-.header-container
-{
-  background-color: #333647;
-	margin:0px;
-}
+.header-container { background-color: #141414; margin:0px; }
 
 .logo { width: 50px; }
 
@@ -79,24 +106,8 @@ a:hover {
 }
 
 
+.myWorks { display: none; width: 100%; height: 75%;}
 
-.c2 {
-    
-    width: 100%;
-    padding: 20px;
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-
-
-  
-
-  .skills {
-    width: 128px;
-    margin: 5px;
-  }
 
   .work {
     width: 230px;

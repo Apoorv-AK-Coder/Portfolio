@@ -1,33 +1,22 @@
-.container {
-    background-color: #000;
-	margin:0px;
-}
+/* common css */
+body { background-color: #141414; }
 
-.row {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-top: 80px;
-	padding-bottom: 80px;
+.container { margin:0px; }
+
+.row
+{
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 6%;
+	padding-bottom: 6%;
 	max-width:1280px;
 	margin:auto;
+  justify-content: space-between;
 }
 
-.column {
-    width: 100%;
-}
+.column { width: 100%; }
 
-.c2 {
-    background-color: #141414;
-    width: 100%;
-    padding: 20px;
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-div {
-    column-gap: 20px;
-}
+div { column-gap: 20px; }
 
 * {
     box-sizing: border-box;
@@ -35,20 +24,74 @@ div {
     padding: 0;
   }
 
-  ul.a {
-    list-style-type: arrow;
-  }
+ul.a { list-style-type: arrow; }
 
-  .totalbar{
+/* common css end */
+
+/* header */
+
+.sticky-header
+{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-container
+{
+  background-color: #333647;
+	margin:0px;
+}
+
+.logo { width: 50px; }
+
+/* header end */
+
+/* footer */
+
+.logo1{
+  width: 100px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+a:link {
+  color:E8c740;
+}
+
+a:hover {
+  color:DEAD1A;
+}
+
+/* footer end */
+
+#contact
+{
+  margin:auto;
+	width:auto;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../image/img05.jpg");
+	height: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+
+
+.c2 {
+    
     width: 100%;
-    background-color: #fff;
-    height: 10px;
-  }
-  .accbar {
-    width: 80%;
-    background-color: #DEAD1A;
-    height:10px;
-  }
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+  
 
   .skills {
     width: 128px;
@@ -60,13 +103,3 @@ div {
     margin: 5px;
   }
 
-#contact {
-  margin:auto;
-	width:auto;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../image/img05.jpg");
-	height: auto;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-}

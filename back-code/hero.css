@@ -24,25 +24,25 @@
 	/* background-color: fff; */
 }
 
+h1, h2, h3, h4, p2, p3 { font-family: Rokkitt; line-height: 1.5; color:white; font-weight:400; }
+
 h1 {
-	font-family: Comfortaa;
+	
 	font-size: 54px;
-	line-height: 1.5;
-	color:white;
+	
+	
 }
 
 h2 {
-	font-family: Comfortaa;
+	
 	font-size: 32px;
-	line-height: 1.5;
-	color:white;
+	
 }
 
 h3 {
-	font-family: Comfortaa;
-	font-size: 26px;
-	line-height: 1.5;
-	color:white;
+	
+	font-size: 25px;
+	
 }
 
 p {
@@ -53,18 +53,14 @@ p {
 }
 
 p2 {
-	font-family: Comfortaa;
+	
 	font-size: 22px;
-	line-height: 2;
-	color:white;
-	font-weight: 600;
+	
 }
 p3 {
-	font-family: Comfortaa;
+	
 	font-size: 18px;
-	line-height: 2;
-	color:white;
-	font-weight: 600;
+	
 }
 
 .img2 {
@@ -72,3 +68,4 @@ width: 375px;
 display: block;
 margin: auto;
 }
+

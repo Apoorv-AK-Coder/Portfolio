@@ -18,3 +18,20 @@ function showDivs(n) {
 
 
 
+function activateLink(link) {
+  var navbarLinks = document.querySelectorAll('.navbar a');
+
+  // Remove 'active' class from all links
+  navbarLinks.forEach(function(navLink) {
+    navLink.classList.remove('active');
+  });
+
+  // Add 'active' class to the clicked link
+  link.classList.add('active');
+}
+
+
+var typed = new Typed('#element', {
+  strings: ['Frontend Developer &amp; Designer A portfolio to show my expertise and work'],
+  typeSpeed: 75,
+});

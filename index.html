@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="./back-code/hero.css">
 <link rel="stylesheet" href="./back-code/responsive.css">
 
-<script src="./back-code/script.js"></script>
 
 </head>
 <style>
@@ -28,9 +27,11 @@
 
                     <div class="navbar">
                         
-                          <a href="#hero" class="active">Home</a>
-                          <a href="#about-me">About</a>
-                          <a href="#education">Education</a>
+                          <a href="#hero" onclick="activateLink(this)">Home</a>
+                          <a href="#about-me" onclick="activateLink(this)">About</a>
+                          <a href="#education" onclick="activateLink(this)">Education</a>
+                          <a href="#skills" onclick="activateLink(this)">Skills</a>
+                          <a href="#work" onclick="activateLink(this)">My Projects</a>
                           <a href="#">Contact</a>
                         
                       </div>
@@ -42,12 +43,12 @@
 
 <!-- Hero Start Here -->
 
-	<div class="container">
+	<div class="container" id="hero">
         <div class="hero-row">
             <div class="row2">
                 <div class="column2">
                     <p2>Hi, I'm</p2><h1><font style="color:#DEAD1A;">Apoorv Agarwal</font></h1>
-                    <p>Frontend Developer & Designer A portfolio to show my expertise and work</p2>
+                    <span id="element"></span>
                 </div>
                 <div class="column2">
                     <img src="./image/selfimage.png" class="img2">
@@ -100,6 +101,7 @@
                 </p3>
             </div>
         </div>
+        <div id="skills"></div>
     </div>
 
     <div class="container"  style="background-color: #333647;">
@@ -136,6 +138,7 @@
                 <h3 style="text-align: center; margin-top: 10px;">Figma</h3>
             </div>
         </div>
+        <div id="work"></div>
     </div>
 
     <div class="container" id="contact">
@@ -146,14 +149,14 @@
                 <div class="c2">
                     <div class="column">
 
-                        <div class="w3-content w3-display-container">
+                        <!-- <div class="w3-content w3-display-container">
                             <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
                             <img class="myWorks" src="./work/work09.png">
                             <img class="myWorks" src="./work/work08.png">
                             <img class="myWorks" src="./work/work05.png">
                             
                             <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-                        </div>
+                        </div> -->
                         
                         <a target="_blank" href="./work/work09.png"> <img class="work" src="./work/work09.png"> </a>
                         <a target="_blank" href="./work/work08.png"> <img class="work" src="./work/work08.png"> </a>
@@ -200,6 +203,10 @@
         </div>
     </div>
 
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="./back-code/script.js"></script>
+    
 </body>
 
 </html>

@@ -31,7 +31,3 @@ function activateLink(link) {
 }
 
 
-var typed = new Typed('#element', {
-  strings: ['Frontend Developer &amp; Designer A portfolio to show my expertise and work'],
-  typeSpeed: 75,
-});

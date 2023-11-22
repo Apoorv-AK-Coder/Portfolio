@@ -19,9 +19,11 @@
 	/* .img2 { width: 100%; display: block; margin: auto; } */
 	#img { width: 550px !important; }
 
-	#skillinfo { width: 45%;
-		float:none;
-		}
+	#skillinfo { width:45%;
+		/* flex-direction:row !important; */
+        flex-wrap: nowrap;
+		column-count: 3;
+			}
 
 }
 

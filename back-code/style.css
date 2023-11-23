@@ -275,3 +275,52 @@ a:hover { color: DEAD1A; }
   margin-bottom: 20px;
   border-radius: 5px;
 }
+
+
+
+.social-icons {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  z-index: 1000;
+}
+
+.social-icons .icon {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons .icon:hover {
+  transform: scale(1.2);
+}
+
+.social-icons .linkedin {
+  background-color: #0077b5; /* Change color as needed */
+}
+
+.social-icons .twitter {
+  background-color: #55acee; /* Change color as needed */
+}
+
+.social-icons .instagram {
+  background-color: #e4405f; /* Change color as needed */
+}
+
+.social-icons .whatsapp {
+  background-color: #128C7E; /* Change color as needed */
+}
+
+.social-icons .email {
+  background-color: #EA4335; /* Change color as needed */
+}
+
+.social-icons .phone {
+  background-color: #309BE3; /* Change color as needed */
+}

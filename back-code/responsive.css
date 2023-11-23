@@ -52,5 +52,7 @@
 	}
 
 	#footer { margin-top: 30px; }
+	.social-icons { top: 75%; }
+	.icon { font-size: 50px !important; padding: 12px !important; }
 
 }

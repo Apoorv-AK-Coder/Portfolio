@@ -75,6 +75,10 @@ ul.a { list-style-type: arrow; }
   transform: scale(1.2); 
 }
 
+#img { width: 100%; border-radius: 10px; }
+
+#about { width: 65%; }
+
 /* common css end */
 
 /* header */

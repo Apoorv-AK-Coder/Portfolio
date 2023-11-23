@@ -17,7 +17,9 @@
 	.column {padding: 0px !important;}
 
 	/* .img2 { width: 100%; display: block; margin: auto; } */
-	#img { width: 550px !important; }
+	#img { object-fit: fill !important; }
+
+	#about { width: auto !important; margin-bottom: 20px; }
 
 	#skillinfo { width:100%;
 		flex-direction:row !important;
@@ -32,6 +34,27 @@
 				margin-top: 15px;
 				width: 100px;
 			}
+
+
+			.row2 {
+				flex-direction:column !important;
+				flex-wrap: wrap;
+				padding-right: 2.5%;
+				padding-left: 2.5%;
+				padding-top: 4%;
+				padding-bottom: 0%;
+				text-align: center;
+				flex-direction: column-reverse;
+			}
+
+			.button {
+				margin-left: auto;
+				margin-right: auto;
+				margin-top: 15px;
+				margin-bottom: 30px;
+			}
+
+			#footer { margin-top: 30px; }
 
 }
 

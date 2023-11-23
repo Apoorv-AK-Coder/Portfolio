@@ -14,15 +14,23 @@
 	p { font-size: 16px; }
 	p2 { font-size: 20px; }
 
-	.column {padding: 15px !important;}
+	.column {padding: 0px !important;}
 
 	/* .img2 { width: 100%; display: block; margin: auto; } */
 	#img { width: 550px !important; }
 
-	#skillinfo { width:45%;
-		/* flex-direction:row !important; */
+	#skillinfo { width:100%;
+		flex-direction:row !important;
         flex-wrap: nowrap;
 		column-count: 3;
+		padding: 20px;;
+			}
+			#c2 {
+				padding: 20px !important;
+			}
+			.skills {
+				margin-top: 15px;
+				width: 100px;
 			}
 
 }

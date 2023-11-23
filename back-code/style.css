@@ -16,8 +16,8 @@ h1 {
   animation: slideFromLeft 2.5s linear forwards;
 }
 
-h2 { font-size: 32px; }
-h3 { font-size: 25px; }
+h2 { font-size: 37px; }
+h3 { font-size: 27px; }
 p2 { font-size: 22px; }
 p3 { font-size: 18px; }
 
@@ -118,6 +118,8 @@ ul.a { list-style-type: arrow; }
 
 /* nav bar */
 
+#nav { text-align:center; }
+
 .navbar a {
   float: left;
   display: block;
@@ -134,7 +136,7 @@ ul.a { list-style-type: arrow; }
 
 html { scroll-behavior: smooth; }
 
-/* navbar end here */
+/* nav bar end here */
 
 /* hero section */
 

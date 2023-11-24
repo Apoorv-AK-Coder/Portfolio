@@ -3,7 +3,7 @@ body { background-color: #141414; }
 
 .container { margin: 0px; }
 
-h1, h2, h3, h4, p2, p3 {
+h1, h2, h3, h4, p2, p3, #element {
   font-family: Rokkitt;
   line-height: 1.5;
   color: white;
@@ -18,7 +18,7 @@ h1 {
 
 h2 { font-size: 37px; }
 h3 { font-size: 27px; }
-p2 { font-size: 22px; }
+p2, #element { font-size: 22px; }
 p3 { font-size: 18px; }
 
 @keyframes slideFromLeft {
@@ -33,7 +33,7 @@ p3 { font-size: 18px; }
   }
 }
 
-p, #element, .button {
+p, .button {
   font-family: Rubik;
   font-size: 16px;
   line-height: 2;
@@ -141,7 +141,7 @@ html { scroll-behavior: smooth; }
 /* hero section */
 
 .img2 {
-  width: 375px;
+  width: 400px;
   display: block;
   margin: auto;
 }
@@ -304,25 +304,37 @@ a:hover { color: DEAD1A; }
 }
 
 .social-icons .linkedin {
-  background-color: #0077b5; /* Change color as needed */
+  background-color: #333647;
+  color: #DEAD1A;
+  /* background-color: #0077b5; */
 }
 
 .social-icons .twitter {
-  background-color: #55acee; /* Change color as needed */
+  background-color: #333647;
+  color: #DEAD1A;
+  /* background-color: #55acee;  */
 }
 
 .social-icons .instagram {
-  background-color: #e4405f; /* Change color as needed */
+  background-color: #333647;
+  color: #DEAD1A;
+  /* background-color: #e4405f;  */
 }
 
 .social-icons .whatsapp {
-  background-color: #128C7E; /* Change color as needed */
+  background-color: #333647;
+  color: #DEAD1A;
+  /* background-color: #128C7E;  */
 }
 
 .social-icons .email {
-  background-color: #EA4335; /* Change color as needed */
+  background-color: #333647;
+  color: #DEAD1A;
+  /* background-color: #EA4335;  */
 }
 
 .social-icons .phone {
-  background-color: #309BE3; /* Change color as needed */
+  background-color: #333647;
+  color: #DEAD1A;
+  /* background-color: #309BE3;  */
 }

@@ -12,7 +12,7 @@
 	h2 { font-size: 40px; }
 	h3 { font-size: 25px; }
 	p { font-size: 16px; }
-	p2 { font-size: 20px; }
+	p2, #element { font-size: 32px; }
 
 	.column { padding: 0px !important; }
 
@@ -59,7 +59,7 @@
 		height: 1100px;
 	}
 
-	.img2 { width:560px; margin-top: auto; margin-bottom: 0px; }
+	.img2 { width:520px; margin-top: auto; margin-bottom: 0px; }
 	#hero-col { padding-bottom: 10%; }
 
 }

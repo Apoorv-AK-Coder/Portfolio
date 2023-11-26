@@ -25,7 +25,7 @@
                 <div class="column" style="width: 40%;"> <img src="./image/img04.png" class="logo"></div>
                 <div class="column">
                     <div class="navbar" id="nav">
-                        
+
                           <a href="#hero" onclick="activateLink(this)">Home</a>
                           <a href="#about-me" onclick="activateLink(this)">About</a>
                           <a href="#education" onclick="activateLink(this)">Education</a>
@@ -48,7 +48,8 @@
                 <div class="column2" id="hero-col">
                     <p2>Hi, I'm</p2>
                     <h1><font style="color:#DEAD1A;">Apoorv Agarwal</font></h1>
-                    <span id="element"></span>
+                    <span id="element"></span><br>
+                    <span id="element2"></span>
                     <a href="./image/resume.pdf" download><div class="button"><span>Download Resume</span></div></a>
                 </div>
                 <div class="column2">
@@ -263,10 +264,15 @@
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="./back-code/script.js"></script>
-    <script>var typed = new Typed('#element', {
-        strings: ['Frontend Developer &amp; Designer. A portfolio to show my expertise and work...'],
-        typeSpeed: 40,
-      });</script>
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Frontend Developer &amp; Designer.'],
+        typeSpeed: 60,});
+
+        var typed = new Typed('#element2', {
+        strings: ['A portfolio to show my expertise and work...'],
+        typeSpeed: 60,});
+      </script>
     
 </body>
 

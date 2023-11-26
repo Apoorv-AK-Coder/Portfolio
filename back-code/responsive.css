@@ -8,11 +8,12 @@
 		padding-bottom: 4%;
 	}
 
-	h1 { font-size: 50px; }
+	h1 { font-size: 70px; }
 	h2 { font-size: 40px; }
 	h3 { font-size: 25px; }
 	p { font-size: 16px; }
-	p2, #element { font-size: 32px; }
+	p2 { font-size: 32px; }
+	#element, #element2 { font-size: 30px; }
 
 	.column { padding: 0px !important; }
 
@@ -56,10 +57,10 @@
 	.icon { font-size: 50px !important; padding: 12px !important; }
 
 	.hero-row {
-		height: 1100px;
+		height: 1300px;
 	}
 
-	.img2 { width:520px; margin-top: auto; margin-bottom: 0px; }
+	.img2 {   margin-bottom: 0px; margin-right: auto; }
 	#hero-col { padding-bottom: 10%; }
 
 }

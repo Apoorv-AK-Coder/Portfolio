@@ -3,23 +3,32 @@ body { background-color: #141414; }
 
 .container { margin: 0px; }
 
-h1, h2, h3, h4, p2, p3, #element {
+h1, h2, h3, h4, p2, p3 {
   font-family: Rokkitt;
   line-height: 1.5;
   color: white;
   font-weight: 400;
 }
 
+
+#element, #element2 {
+  font-family: Rubik;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
 h1 {
-  font-size: 54px;
+  font-size: 60px;
   opacity: 0;
   animation: slideFromLeft 2.5s linear forwards;
 }
 
-h2 { font-size: 37px; }
-h3 { font-size: 27px; }
-p2, #element { font-size: 22px; }
-p3 { font-size: 18px; }
+h2 { font-size: 45px; }
+h3 { font-size: 32px; }
+p2 { font-size: 25px; }
+p3 { font-size: 22px; }
 
 @keyframes slideFromLeft {
   from {
@@ -118,8 +127,8 @@ ul.a { list-style-type: arrow; }
 
 /* nav bar */
 
-#nav { text-align:center; }
-
+#nav { margin:left: auto; Margin-right: auto; }
+.navbar { margin:left: auto; Margin-right: auto; }
 .navbar a {
   float: left;
   display: block;
@@ -141,9 +150,9 @@ html { scroll-behavior: smooth; }
 /* hero section */
 
 .img2 {
-  width: 400px;
+  width: 500px;
   display: block;
-  margin: auto;
+  margin-left: auto;
 }
 
 .hero-row {
@@ -195,7 +204,7 @@ a:hover { color: DEAD1A; }
   padding: 10px 20px;
   width: 225px;
   height: auto;
-  margin-top: 15px;
+  margin-top: 30px;
   border-radius: 25px;
   text-align: center;
   box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.4);

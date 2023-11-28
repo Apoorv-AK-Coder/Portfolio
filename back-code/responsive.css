@@ -39,7 +39,7 @@
 		flex-wrap: wrap;
 		padding-right: 4%;
 		padding-left: 4%;
-		padding-top: 10%;
+		padding-top: 11.5vh;
 		padding-bottom: 0%;
 		text-align: center;
 		flex-direction: column-reverse;
@@ -57,10 +57,10 @@
 	.icon { font-size: 50px !important; padding: 12px !important; }
 
 	.hero-row {
-		height: 1300px;
+		height: 85vh;
 	}
 
-	.img2 {   margin-bottom: 0px; margin-right: auto; }
-	#hero-col { padding-bottom: 10%; }
+	.img2 {   margin-bottom: 0px; margin-right: auto; width: 500px; }
+	#hero-col { padding-bottom: 11.5vh; }
 
 }

@@ -21,24 +21,19 @@
 		;
 	}
 
-	.skills { margin-top: 15px; width: 100px; }
+
 	
 	.d-flex {
-		flex-direction: column !important;
-    flex-wrap: wrap;
-    padding-right: 4%;
-    padding-left: 4%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-	width: 100%;
+		/* flex-direction: column !important; */
+    	flex-wrap: wrap;
+    	padding: 4%;
+		width: 100%;
 	}
 
 	.button {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 15px;
-		margin-bottom: 15px;
+		margin :15px auto;
 	}
+
 
 	#footer { margin-top: 30px; }
 	.social-icons { top: 75%; }
@@ -60,30 +55,55 @@
 
 	}
 
-	.img2 {   margin-bottom: 0px; margin-right: auto; width: 500px; }
+	.img2 {  
+		margin-bottom: 0px; margin-right: auto; width: 500px; 
+	}
 	
 	/* Mobile menu start  */
-	
+	.header{
+		width: 100%;
+		
+
+	}
+	.header .d-flex{
+		width: 100%;
+		justify-content: space-between !important;
+		/* background-color: red; */
+	}
+	.header .d-flex .logo{
+		/* background-color: pink; */
+		width: 30%;
+	}
 
 	.hamburgerMenu{
 		width: 8%;
-		/* background-color: red; */
+		/* background-color: green; */
 		display: block;
 	  
 	}
 	.navbar {
 		/* background-color: green; */
-		width:100%;
+		width:55%;
 		display: none;
 		position: absolute;
-		left: 0;
+		right: 0;
 		top: 100%;
+		height: 100vh;
 	}
 
+	.navbar .ul .d-flex{
+		align-items: start !important;
+	}
 	.navbar .ul{
 		flex-direction: column;
 		/* background-color: red !important; */
 		justify-content: center;
+		height: 100vh;
+
+	}
+	.navbar .ul li{
+		margin: 25px;
+		/* background-color: pink; */
 	}
 	.navbar .d-flex {
 		justify-content: center !important;
@@ -99,5 +119,19 @@
 	}
 
 	/* Mobile menu end  */
+
+	/* skills starts here  */
+	.skills { 
+		margin-top: 15px; 
+		width: 100%; 
+		background-color: green;
+	}
+	.skills .bottom .column{
+		width: 30%;
+		background-color: red;
+	}
+	/* skills starts here  */
+
+
 
 }

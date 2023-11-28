@@ -38,6 +38,9 @@ div {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.j-between{
+  justify-content: space-between;
+}
 
 li {
   list-style: none;

@@ -245,11 +245,11 @@ a:hover { color: DEAD1A; }
 
 /* gallery */
 
-.gallery {
+/* .gallery {
   width: 100%;
   display: flex;
   flex-flow: row wrap;
-}
+} */
 
 .box {
   flex-basis: 15%;
@@ -347,3 +347,6 @@ a:hover { color: DEAD1A; }
   color: #DEAD1A;
   /* background-color: #309BE3;  */
 }
+
+
+.owl-theme .owl-nav {color:#fff; font-size: 30px;}

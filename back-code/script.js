@@ -17,7 +17,6 @@ function showDivs(n) {
 }
 
 
-
 function activateLink(link) {
   var navbarLinks = document.querySelectorAll('.navbar a');
 
@@ -29,5 +28,3 @@ function activateLink(link) {
   // Add 'active' class to the clicked link
   link.classList.add('active');
 }
-
-

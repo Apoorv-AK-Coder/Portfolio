@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="./back-code/responsive.css">
 
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <style>
 
@@ -148,87 +151,29 @@
             <div class="column">
                 <h2>My Work</h2>
                 <hr>
-                <!-- <div class="c2">
-                    <div class="column">
-                        
-                        
-                        
-                        
-                    </div>
-                </div> -->
             </div>
         </div>
+
         <div class="row" style="padding-top: 0%;">
             <div class="column">
                 <div class="c2">
-                    <div class="gallery">
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work01.png"> <img src="./work/Works01.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work02.png"> <img src="./work/Works02.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work03.png"> <img src="./work/Works03.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work04.png"> <img src="./work/Works04.jpg" width="295"> </a>
-                            </div>
-                        </div>
 
-                        
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work05.png"> <img src="./work/Works05.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work06.png"> <img src="./work/Works06.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work07.png"> <img src="./work/Works07.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work08.png"> <img src="./work/Works08.jpg" width="295"> </a>
-                            </div>
-                        </div>
-
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work09.png"> <img src="./work/Works09.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work10.png"> <img src="./work/Works10.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work11.png"> <img src="./work/Works11.jpg" width="295"> </a>
-                            </div>
-                        </div>
-                        <div class="box">
-                            <div class="image">
-                                <a target="_blank" href="./work/work12.png"> <img src="./work/Works12.jpg" width="295"> </a>
-                            </div>
-                        </div>
-
-
-                        
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><a href="./work/work01.png" target="_blank"><img src="./work/Works01.jpg"></a></div>
+                        <div class="item"><a href="./work/work02.png" target="_blank"><img src="./work/Works02.jpg"></a></div>
+                        <div class="item"><a href="./work/work03.png" target="_blank"><img src="./work/Works03.jpg"></a></div>
+                        <div class="item"><a href="./work/work04.png" target="_blank"><img src="./work/Works04.jpg"></a></div>
+                        <div class="item"><a href="./work/work05.png" target="_blank"><img src="./work/Works05.jpg"></a></div>
+                        <div class="item"><a href="./work/work06.png" target="_blank"><img src="./work/Works06.jpg"></a></div>
+                        <div class="item"><a href="./work/work07.png" target="_blank"><img src="./work/Works07.jpg"></a></div>
+                        <div class="item"><a href="./work/work08.png" target="_blank"><img src="./work/Works08.jpg"></a></div>
+                        <div class="item"><a href="./work/work09.png" target="_blank"><img src="./work/Works09.jpg"></a></div>
+                        <div class="item"><a href="./work/work10.png" target="_blank"><img src="./work/Works10.jpg"></a></div>
+                        <div class="item"><a href="./work/work11.png" target="_blank"><img src="./work/Works11.jpg"></a></div>
+                        <div class="item"><a href="./work/work12.png" target="_blank"><img src="./work/Works12.jpg"></a></div>
+                
                     </div>
+
                 </div>
             </div>
         </div>
@@ -272,7 +217,33 @@
         var typed = new Typed('#element2', {
         strings: ['A portfolio to show my expertise and work...'],
         typeSpeed: 60,});
-      </script>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true, 
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+})
+</script>
     
 </body>
 

@@ -1,61 +1,69 @@
 <html>
+
 <head>
-<title>Apoorv Portfolio</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-
-<script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
-
-<link rel="stylesheet" href="./back-code/style.css">
-<link rel="stylesheet" href="./back-code/hero.css">
-<link rel="stylesheet" href="./back-code/responsive.css">
+    <title>Apoorv Portfolio</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
+    <link rel="stylesheet" href="./back-code/style.css">
+    <link rel="stylesheet" href="./back-code/responsive.css">
 
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<style>
-
-
-</style>
 
 <body>
     <!-- Header Start Here -->
     <header class="sticky-header">
-        <div class="header-container">
-            <div class="row" style="padding-top:20px; padding-bottom:20px;" id="skillinfo">
-                <div class="column" style="width: 40%;"> <img src="./image/img04.png" class="logo"></div>
-                <div class="column">
-                    <div class="navbar" id="nav">
+        <div class="header container">
+            <div class="mobile d-flex">
+                <div class="column logo d-flex"> <img src="./image/img04.png"></div>
 
-                          <a href="#hero" onclick="activateLink(this)">Home</a>
-                          <a href="#about-me" onclick="activateLink(this)">About</a>
-                          <a href="#education" onclick="activateLink(this)">Education</a>
-                          <a href="#skills" onclick="activateLink(this)">Skills</a>
-                          <a href="#work" onclick="activateLink(this)">My Projects</a>
-                          <a href="#">Contact</a>
-                        
-                      </div>
+                <div class="column hamburgerMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                 </div>
+
+                <div class="column navbar">
+                    <ul class="d-flex ul">                            
+                        <li> <a href="#hero" onclick="activateLink(this)">Home</a></li>
+                        <li> <a href="#about-me" onclick="activateLink(this)">About</a></li>
+                        <li> <a href="#education" onclick="activateLink(this)">Education</a></li>
+                        <li> <a href="#skills" onclick="activateLink(this)">Skills</a></li>
+                        <li> <a href="#work" onclick="activateLink(this)">My Projects</a></li>
+                        <li> <a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
             </div>
         </div>
     </header>
     <!-- Header End Here -->
 
-<!-- Hero Start Here -->
+    <!-- Hero Start Here -->
 
-	<div class="container" id="hero">
+    <div class="container" id="hero">
         <div class="hero-row">
-            <div class="row2">
-                <div class="column2" id="hero-col">
+            <div class="d-flex">
+                <div class="column column1">
                     <p2>Hi, I'm</p2>
-                    <h1><font style="color:#DEAD1A;">Apoorv Agarwal</font></h1>
+                    <h1>
+                        <font style="color:#DEAD1A;">Apoorv Agarwal</font>
+                    </h1>
                     <span id="element"></span><br>
                     <span id="element2"></span>
-                    <a href="./image/resume.pdf" download><div class="button"><span>Download Resume</span></div></a>
+                    <a href="./image/resume.pdf" download>
+                        <div class="button"><span>Download Resume</span></div>
+                    </a>
                 </div>
-                <div class="column2">
+                <div class="column">
                     <img src="./image/selfimage.png" class="img2">
                 </div>
             </div>
@@ -65,14 +73,22 @@
     <!-- Hero End Here -->
 
     <div class="container" style="background-color: #333647;">
-        <div class="row">
+        <div class="d-flex">
             <div class="column" id="about">
                 <img src="./image/image06.jpg" id="img">
             </div>
             <div class="column" style="margin: auto; padding-left:20px;">
                 <h2>About Me</h2>
-                <p>Hello, and welcome to my web developer portfolio! I'm Aporv Agarwal, a passionate & dedicated web developer with a strong commitment to creating visually appealing, user-friendly, & efficient websites. With a deep love for technology & an insatiable curiosity for the ever-evolving web development landscape, I have made it my mission to craft exceptional online experiences that not only meet but exceed client expectations.
-                <br>As a web developer, I have expertise in Web Design, Web Development, Responsive Design, Front-end & Back-end Development, UI/UX Design, prototyping, wireframe, and Project Management. I know the multiple CMS platforms i.e. WordPress, Elementor, Duda, Mono, & Wix, etc... I always strive to learn more and stay up-to-date with the latest technologies to deliver the best results.</p>
+                <p>Hello, and welcome to my web developer portfolio! I'm Aporv Agarwal, a passionate & dedicated web
+                    developer with a strong commitment to creating visually appealing, user-friendly, & efficient
+                    websites. With a deep love for technology & an insatiable curiosity for the ever-evolving web
+                    development landscape, I have made it my mission to craft exceptional online experiences that not
+                    only meet but exceed client expectations.
+                    <br>As a web developer, I have expertise in Web Design, Web Development, Responsive Design,
+                    Front-end & Back-end Development, UI/UX Design, prototyping, wireframe, and Project Management. I
+                    know the multiple CMS platforms i.e. WordPress, Elementor, Duda, Mono, & Wix, etc... I always strive
+                    to learn more and stay up-to-date with the latest technologies to deliver the best results.
+                </p>
             </div>
         </div>
         <div id="education"></div>
@@ -80,44 +96,50 @@
 
 
     <div class="container">
-        <div class="row" style="padding-bottom: 0px;">
+        <div class="d-flex" style="padding-bottom: 0px;">
             <div class="column">
                 <h2>Education</h2>
                 <hr>
             </div>
         </div>
 
-        <div class="row" style="padding-top: 0px;">
-            <div class="column" id="c2">
-                <p2><font style="color:#DEAD1A;">2016 - 2020</font> <br>
-                    Kunwar Satya Veera College Of Engg. & Mgt.<br>
-                </p2>
-                <p3>
-                    ➺ B. Tech. (Bachelor of Technology)
-                </p3>
+        <div class="d-flex" style="padding-top: 0px;">
+            <div class="column">
+                <div class="d-flex edu">
+                    <p2>
+                        <font style="color:#DEAD1A;">2016 - 2020</font> <br>
+                        Kunwar Satya Veera College Of Engg. & Mgt.<br>
+                    </p2>
+                    <p3>
+                        ➺ B. Tech. (Bachelor of Technology)
+                    </p3>
+                </div>
             </div>
 
-            <div class="column" id="c2">
-                <p2><font style="color:#DEAD1A;">2020 - 2022</font> <br>
-                    Kunwar Satya Veera College Of Engg. & Mgt.<br>
-                </p2>
-                <p3>
-                    ➺ MBA (Master of Business Administration)
-                </p3>
+            <div class="column">
+                <div class="d-flex edu">
+                    <p2>
+                        <font style="color:#DEAD1A;">2020 - 2022</font> <br>
+                        Kunwar Satya Veera College Of Engg. & Mgt.<br>
+                    </p2>
+                    <p3>
+                        ➺ MBA (Master of Business Administration)
+                    </p3>
+                </div>
             </div>
         </div>
         <div id="skills"></div>
     </div>
 
-    <div class="container"  style="background-color: #333647;">
-        <div class="row" style="padding-bottom: 0px;">
+    <div class="container" style="background-color: #333647;">
+        <div class="d-flex" style="padding-bottom: 0px;">
             <div class="column">
                 <h2>Skills</h2>
                 <hr style="margin-bottom: 20px;">
             </div>
         </div>
 
-        <div class="row" style="padding-top: 0px;" id="skillinfo">
+        <div class="d-flex" style="padding-top: 0px;" id="skillinfo">
             <div class="column" id="skillset">
                 <img class="skills" src="./image/HTML.jpg">
                 <h3 style="text-align: center; margin-top: 10px;">HTML</h3>
@@ -147,31 +169,43 @@
     </div>
 
     <div class="container" id="contact">
-        <div class="row" style="padding-bottom: 0%;">
+        <div class="d-flex" style="padding-bottom: 0%;">
             <div class="column">
                 <h2>My Work</h2>
                 <hr>
             </div>
         </div>
 
-        <div class="row" style="padding-top: 0%;">
+        <div class="d-flex" style="padding-top: 0%;">
             <div class="column">
-                <div class="c2">
+                <div class="d-flex">
 
                     <div class="owl-carousel owl-theme">
-                        <div class="item"><a href="./work/work01.png" target="_blank"><img src="./work/Works01.jpg"></a></div>
-                        <div class="item"><a href="./work/work02.png" target="_blank"><img src="./work/Works02.jpg"></a></div>
-                        <div class="item"><a href="./work/work03.png" target="_blank"><img src="./work/Works03.jpg"></a></div>
-                        <div class="item"><a href="./work/work04.png" target="_blank"><img src="./work/Works04.jpg"></a></div>
-                        <div class="item"><a href="./work/work05.png" target="_blank"><img src="./work/Works05.jpg"></a></div>
-                        <div class="item"><a href="./work/work06.png" target="_blank"><img src="./work/Works06.jpg"></a></div>
-                        <div class="item"><a href="./work/work07.png" target="_blank"><img src="./work/Works07.jpg"></a></div>
-                        <div class="item"><a href="./work/work08.png" target="_blank"><img src="./work/Works08.jpg"></a></div>
-                        <div class="item"><a href="./work/work09.png" target="_blank"><img src="./work/Works09.jpg"></a></div>
-                        <div class="item"><a href="./work/work10.png" target="_blank"><img src="./work/Works10.jpg"></a></div>
-                        <div class="item"><a href="./work/work11.png" target="_blank"><img src="./work/Works11.jpg"></a></div>
-                        <div class="item"><a href="./work/work12.png" target="_blank"><img src="./work/Works12.jpg"></a></div>
-                
+                        <div class="item"><a href="./work/work01.png" target="_blank"><img src="./work/Works01.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work02.png" target="_blank"><img src="./work/Works02.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work03.png" target="_blank"><img src="./work/Works03.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work04.png" target="_blank"><img src="./work/Works04.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work05.png" target="_blank"><img src="./work/Works05.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work06.png" target="_blank"><img src="./work/Works06.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work07.png" target="_blank"><img src="./work/Works07.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work08.png" target="_blank"><img src="./work/Works08.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work09.png" target="_blank"><img src="./work/Works09.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work10.png" target="_blank"><img src="./work/Works10.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work11.png" target="_blank"><img src="./work/Works11.jpg"></a>
+                        </div>
+                        <div class="item"><a href="./work/work12.png" target="_blank"><img src="./work/Works12.jpg"></a>
+                        </div>
+
                     </div>
 
                 </div>
@@ -181,13 +215,14 @@
 
     <!--Footer start here-->
     <div class="container">
-        <div class="row" style="text-align:center;">
+        <div class="d-flex" style="text-align:center;">
             <div class="column">
                 <a href="./index.html"> <img src="./image/img04.png" class="logo1"> </a>
             </div>
 
             <div class="column" id="footer">
-                <i class="fa-solid fa-phone-volume fa-shake" style="color:white; font-size: 30px; padding-bottom: 10px;"></i>
+                <i class="fa-solid fa-phone-volume fa-shake"
+                    style="color:white; font-size: 30px; padding-bottom: 10px;"></i>
                 <p><a href="tel:=917906875025"> +91 - 7906875025 </a></p>
             </div>
 
@@ -195,11 +230,16 @@
                 <i class="fa-solid fa-at fa-bounce" style="color:white; font-size: 30px; padding-bottom: 10px;"></i>
                 <p><a href="mailto:contact.apoorv.agarwal@gmail.com">contact.apoorv.agarwal@gmail.com</a></p>
                 <div class="social-icons">
-                    <a target="_blank" href="https://www.linkedin.com/in/apoorv-agarwal-61417b297/" class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
-                    <a target="_blank" href="https://instagram.com/_apoorv_agarwal?igshid=OGQ5ZDc2ODk2ZA==" class="icon instagram"><i class="fab fa-instagram"></i></a>
-                    <a target="_blank" href="https://wa.me/+917906875025" class="icon whatsapp"><i class="fab fa-whatsapp"></i></a>
-                    <a target="_blank" href="mailto:contact.apoorv.agarwal@gmail.com" class="icon email"><i class="fa-solid fa-envelope-open-text"></i></a>
-                    <a target="_blank" href="tel:+917906875025" class="icon phone"><i class="fa fa-phone-volume"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/apoorv-agarwal-61417b297/"
+                        class="icon linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    <a target="_blank" href="https://instagram.com/_apoorv_agarwal?igshid=OGQ5ZDc2ODk2ZA=="
+                        class="icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://wa.me/+917906875025" class="icon whatsapp"><i
+                            class="fab fa-whatsapp"></i></a>
+                    <a target="_blank" href="mailto:contact.apoorv.agarwal@gmail.com" class="icon email"><i
+                            class="fa-solid fa-envelope-open-text"></i></a>
+                    <a target="_blank" href="tel:+917906875025" class="icon phone"><i
+                            class="fa fa-phone-volume"></i></a>
                     <!-- Add more social icons as needed -->
                 </div>
             </div>
@@ -208,43 +248,54 @@
 
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
     <script src="./back-code/script.js"></script>
     <script>
         var typed = new Typed('#element', {
-        strings: ['Frontend Developer &amp; Designer.'],
-        typeSpeed: 60,});
+            strings: ['Frontend Developer &amp; Designer.'],
+            typeSpeed: 60,
+        });
 
         var typed = new Typed('#element2', {
-        strings: ['A portfolio to show my expertise and work...'],
-        typeSpeed: 60,});
+            strings: ['A portfolio to show my expertise and work...'],
+            typeSpeed: 60,
+        });
     </script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
 
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel();
+        });
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true, 
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-})
-</script>
-    
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            animateOut: 'fadeOut',
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+
 </body>
 
 </html>

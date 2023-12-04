@@ -55,7 +55,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, p2, p3 {
+/* h1, h2, h3, h4, p2, p3 {
   font-family: Rokkitt;
   line-height: 1.5;
   color: var(--secondary-color);
@@ -83,7 +83,7 @@ h3 { font-size: 32px; }
 
 p2 { font-size: 25px; }
 
-p3 { font-size: 22px; }
+p3 { font-size: 22px; } */
 
 @keyframes slideFromLeft {
   from {
@@ -97,12 +97,12 @@ p3 { font-size: 22px; }
   }
 }
 
-p, .button {
+/* p, .button {
   font-family: Rubik;
   font-size: 16px;
   line-height: 2;
   color: white;
-}
+} */
 
 
 /* global css end */
@@ -246,13 +246,13 @@ ul.a {
   margin-right: auto;
 }
 
-a:link {
+/* a:link {
   color: var(--third-color);
 }
 
 a:hover {
   color: var(--fourt-color);
-}
+} */
 
 /* footer end */
 

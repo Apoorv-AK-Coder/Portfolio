@@ -6,21 +6,58 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
     <link rel="stylesheet" href="./back-code/style.css">
     <link rel="stylesheet" href="./back-code/responsive.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
         integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
 </head>
 
 <body>
     <!-- Header Start Here -->
-    <header class="sticky-header">
+        <div class="bg-[#333647] sticky top-0">
+            <div class="container lg:flex m-auto py-[15px] xl:flex">
+                <div class="flex justify-center">
+                    <img src="./image/img04.png" alt="logo" class="h-[80px]">
+                </div>
+                <div class="flex-1">
+                    <ul class="flex xl:justify-end lg:justify-end justify-center mt-6">
+                        <li class="px-3 cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Home</li>
+                        <li class="px-3 cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">About</li>
+                        <li class="px-3 cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Education</li>
+                        <li class="px-3 cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Skills</li>
+                        <li class="px-3 cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">My Projects</li>
+                        <li class="px-3 cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Contact Us!</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!-- Header End Here -->
+
+    <!-- Hero Start Here -->
+        <div class="bg-[url(../image/curvline.png)] bg-no-repeat bg-center bg-cover">
+            <div class="container m-auto xl:flex lg:flex">
+                <div class="text-white lg:flex-1 xl:flex-1 my-auto py-[15%]">
+                    <p class="text-2xl font-[Rubik]">Hi I'm</p>
+                    <h1 class="text-6xl font-[Rokkitt] text-[#E8c740]">Apoorv Agarwal</h1>
+                    <p class="text-lg font-[Rubik]">Frontend Developer & Designer</p>
+                    <p class="text-lg font-[Rubik]">A portfolio to show my Experience & Work...</p>
+                </div>
+                <div class="bg-red-100 flex justify-center">
+                    <img src="./image/selfimage.png" alt="AK" class="h-[600px]">
+                </div>
+            </div>
+        </div>
+    <!-- Hero End Here -->
+
+    <!-- Header Start Here -->
+    <!-- <header class="sticky-header">
         <div class="header container">
             <div class=" row mobile d-flex ">
                 <div class="column logo "> <img src="./image/img04.png"></div>
@@ -44,12 +81,12 @@
                 
             </div>
         </div>
-    </header>
+    </header> -->
     <!-- Header End Here -->
 
     <!-- Hero Start Here -->
 
-    <div class="container" id="hero">
+    <!-- <div class="container" id="hero">
         <div class="hero-row">
             <div class="d-flex">
                 <div class="column column1">
@@ -69,10 +106,10 @@
             </div>
         </div>
         <div id="about-me"></div>
-    </div>
+    </div> -->
     <!-- Hero End Here -->
 
-    <div class="container" style="background-color: #333647;">
+    <!-- <div class="container" style="background-color: #333647;">
         <div class="d-flex">
             <div class="column" id="about">
                 <img src="./image/image06.jpg" id="img">
@@ -129,49 +166,56 @@
             </div>
         </div>
         <div id="skills"></div>
-    </div>
+    </div> -->
 
     <!-- skills starts here  -->
 
-    <div class="container skills" style="background-color: #333647;">
-        <div class=" row d-flex" style="padding-bottom: 0px;">
+    <!-- <div class="container" style="background-color: #333647;">
+        <div class="row d-flex" style="padding-bottom: 0px;">
             <div class="column">
                 <h2>Skills</h2>
                 <hr style="margin-bottom: 20px;">
             </div>
         </div>
 
-        <div class=" row bottom d-flex" style="padding-top: 0px;" id="skillinfo">
-            <div class="column" id="skillset">
-                <img class="skills" src="./image/HTML.jpg">
-                <h3 style="text-align: center; margin-top: 10px;">HTML</h3>
+        <div class="row bottom d-flex" style="padding-top: 0px;">
+            <div class="column">
+                <div class="column" style="padding: 0px;">
+                    <div class="column" id="skillset">
+                        <img class="skills" src="./image/HTML.jpg">
+                        <h3 style="text-align: center; margin-top: 10px;">HTML</h3>
+                    </div>
+                    <div class="column" id="skillset">
+                        <img class="skills" src="./image/css.jpg">
+                        <h3 style="text-align: center; margin-top: 10px;">CSS</h3>
+                    </div>
+                    <div class="column" id="skillset">
+                        <img class="skills" src="./image/JS.jpg">
+                        <h3 style="text-align: center; margin-top: 10px;">JavaScript</h3>
+                    </div>
+                </div>
             </div>
-            <div class="column" id="skillset">
-                <img class="skills" src="./image/css.jpg">
-                <h3 style="text-align: center; margin-top: 10px;">CSS</h3>
+            <div class="column">
+                <div class="column" id="skillset">
+                    <img class="skills" src="./image/wordpress.jpg">
+                    <h3 style="text-align: center; margin-top: 10px;">WordPress</h3>
+                </div>
+                <div class="column" id="skillset">
+                    <img class="skills" src="./image/elementor.jpg">
+                    <h3 style="text-align: center; margin-top: 10px;">Elementor</h3>
+                </div>
+                <div class="column" id="skillset">
+                    <img class="skills" src="./image/figma.jpg">
+                    <h3 style="text-align: center; margin-top: 10px;">Figma</h3>
+                </div>
             </div>
-            <div class="column" id="skillset">
-                <img class="skills" src="./image/JS.jpg">
-                <h3 style="text-align: center; margin-top: 10px;">JavaScript</h3>
-            </div>
-            <div class="column" id="skillset">
-                <img class="skills" src="./image/wordpress.jpg">
-                <h3 style="text-align: center; margin-top: 10px;">WordPress</h3>
-            </div>
-            <div class="column" id="skillset">
-                <img class="skills" src="./image/elementor.jpg">
-                <h3 style="text-align: center; margin-top: 10px;">Elementor</h3>
-            </div>
-            <div class="column" id="skillset">
-                <img class="skills" src="./image/figma.jpg">
-                <h3 style="text-align: center; margin-top: 10px;">Figma</h3>
-            </div>
+            
         </div>
         <div id="work"></div>
-    </div>
+    </div> -->
     <!-- skills ends here  -->
 
-    <div class="container" id="contact">
+    <!-- <div class="container" id="contact">
         <div class="d-flex" style="padding-bottom: 0%;">
             <div class="column">
                 <h2>My Work</h2>
@@ -208,16 +252,15 @@
                         </div>
                         <div class="item"><a href="./work/work12.png" target="_blank"><img src="./work/Works12.jpg"></a>
                         </div>
-
                     </div>
 
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--Footer start here-->
-    <div class="container">
+    <!-- <div class="container">
         <div class="d-flex" style="text-align:center;">
             <div class="column">
                 <a href="./index.html"> <img src="./image/img04.png" class="logo1"> </a>
@@ -242,9 +285,9 @@
                     <a target="_blank" href="mailto:contact.apoorv.agarwal@gmail.com" class="icon email"><i
                             class="fa-solid fa-envelope-open-text"></i></a>
                     <a target="_blank" href="tel:+917906875025" class="icon phone"><i
-                            class="fa fa-phone-volume"></i></a>
+                            class="fa fa-phone-volume"></i></a> -->
                     <!-- Add more social icons as needed -->
-                </div>
+                <!-- </div>
             </div>
         </div>
     </div>
@@ -297,8 +340,7 @@
                 }
             }
         })
-    </script>
-
+    </script> -->
 </body>
 
 </html>

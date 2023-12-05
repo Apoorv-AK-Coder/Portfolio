@@ -19,9 +19,9 @@
 
 </head>
 
-<body>
+<body class="bg-[#141414]">
     <!-- Header Start Here -->
-        <div class="bg-[#333647] sticky top-0">
+        <div class="bg-[#333647] sticky top-0 z-10">
             <div class="container lg:flex m-auto py-[15px] xl:flex">
                 <div class="flex justify-center">
                     <img src="./image/img04.png" alt="logo" class="h-[80px]">
@@ -41,7 +41,7 @@
     <!-- Header End Here -->
 
     <!-- Hero Start Here -->
-        <div class="bg-[url(../image/curvline.png)] bg-no-repeat bg-center bg-cover">
+        <div class="bg-[url(./image/curvline.png)] bg-no-repeat bg-left-top bg-cover">
             <div class="container m-auto xl:flex lg:flex">
                 <div class="text-white lg:flex-1 xl:flex-1 my-auto py-[15%] text-center lg:text-left xl:text-left 2xl:text-left">
                     <p class="text-2xl font-[Rubik]">Hi I'm</p>
@@ -58,17 +58,64 @@
     <!-- Hero End Here -->
 
     <!-- About Section Start Here -->
-        <div class="bg-[#333647]">
-            <div class="container py-[6%] m-auto lg:flex xl:flex">
-                <div class="flex-1 gap-4"><img src="./image/image06.jpg" alt="img" class="rounded-2xl border"></div>
-                <div class="flex-1">
-                    <p class="font-[Rubik] text-lg text-white">
+        <div class="bg-[#333647]" id="about">
+            <div class="container py-[7%] m-auto lg:flex xl:flex">
+                <div class="flex-1 gap-4 basis-1/3 bg-[url(./image/image06.jpg)] bg-cover rounded-2xl">
+                    <div class="bg-[#141414] bg-opacity-75 rounded-2xl">
+                        <img src="./image/image06.jpg" alt="img" class="rounded-2xl scale-[90%] border-2 border-[#E8C740]">
+                    </div>
+                </div>
+                <div class="flex-1 m-auto basis-2/3">
+                    <h2 class="text-white text-4xl font-[Rokkitt] font-semibold py-4"><i class="fa-solid fa-eject fa-rotate-90"></i> About Me</h2>
+                    <p class="font-[Rubik] text-basis leading-loose text-white">
                         Hello, and welcome to my web developer portfolio! I'm Aporv Agarwal, a passionate & dedicated web developer with a strong commitment to creating visually appealing, user-friendly, & efficient websites. With a deep love for technology & an insatiable curiosity for the ever-evolving web development landscape, I have made it my mission to craft exceptional online experiences that not only meet but exceed client expectations.
                         <br>As a web developer, I have expertise in Web Design, Web Development, Responsive Design, Front-end & Back-end Development, UI/UX Design, prototyping, wireframe, and Project Management. I know the multiple CMS platforms i.e. WordPress, Elementor, Duda, Mono, & Wix, etc... I always strive to learn more and stay up-to-date with the latest technologies to deliver the best results.</div>
                     </p>
             </div>
         </div>
     <!-- About Section End Here -->
+
+    <!-- Education Section Start Here-->
+        <div id="education">
+            <div class="container m-auto py-[7%]">
+                <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-user-graduate"></i> Education</h2>
+                
+                <div class="lg:flex xl:flex">
+                    <div class="flex-1 gap-4 bg-[#333647] p-5 rounded">
+                        <p class="text-[#E8c740] text-xl font-[Rubik]">2016 - 2020</p>
+                        <p class="text-white text-2xl leading-loose font-[Rokkitt]"> Kunwar Satya Veera College of Engg. & Mgt.</p>
+                        <p class="text-white text-lg font-[Rubik]"> B. Tech. (Bachelor Of Technology)</p>
+                    </div>
+                    <div class="flex-1 gap-4 bg-[#333647] p-5 rounded mt-5 lg:mt-0 xl:mt-0">
+                        <p class="text-[#E8c740] text-xl font-[Rubik]">2020 - 2022</p>
+                        <p class="text-white text-2xl leading-loose font-[Rokkitt]"> Kunwar Satya Veera College of Engg. & Mgt.</p>
+                        <p class="text-white text-lg font-[Rubik]"> MBA (Master Of Business Administration)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Education Section End Here-->
+
+    <!-- Skills Start Here -->
+    <div id="skills" class="bg-[#333647]">
+        <div class="container m-auto py-[7%]">
+            <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-laptop-code"></i> Skills</h2>
+            
+            <div class="lg:flex xl:flex">
+                <div class="flex-1 gap-4 bg-[#333647] p-5 rounded">
+                    <p class="text-[#E8c740] text-xl font-[Rubik]">2016 - 2020</p>
+                    <p class="text-white text-2xl leading-loose font-[Rokkitt]"> Kunwar Satya Veera College of Engg. & Mgt.</p>
+                    <p class="text-white text-lg font-[Rubik]"> B. Tech. (Bachelor Of Technology)</p>
+                </div>
+                <div class="flex-1 gap-4 bg-[#333647] p-5 rounded">
+                    <p class="text-[#E8c740] text-xl font-[Rubik]">2020 - 2022</p>
+                    <p class="text-white text-2xl leading-loose font-[Rokkitt]"> Kunwar Satya Veera College of Engg. & Mgt.</p>
+                    <p class="text-white text-lg font-[Rubik]"> MBA (Master Of Business Administration)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills End Here -->
 
     <!-- Footer Start Here -->
         <div class="bg-[#333647]">
@@ -88,71 +135,13 @@
         </div>
     <!-- Footer End Here -->
 
+    
+
     <!-- Script Files Start Here -->
     
     <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
     
     <!-- Script Files End Here -->
-    
-
-    <!-- <div class="container" style="background-color: #333647;">
-        <div class="d-flex">
-            <div class="column" id="about">
-                <img src="./image/image06.jpg" id="img">
-            </div>
-            <div class="column" style="margin: auto; padding-left:20px;">
-                <h2>About Me</h2>
-                <p>Hello, and welcome to my web developer portfolio! I'm Aporv Agarwal, a passionate & dedicated web
-                    developer with a strong commitment to creating visually appealing, user-friendly, & efficient
-                    websites. With a deep love for technology & an insatiable curiosity for the ever-evolving web
-                    development landscape, I have made it my mission to craft exceptional online experiences that not
-                    only meet but exceed client expectations.
-                    <br>As a web developer, I have expertise in Web Design, Web Development, Responsive Design,
-                    Front-end & Back-end Development, UI/UX Design, prototyping, wireframe, and Project Management. I
-                    know the multiple CMS platforms i.e. WordPress, Elementor, Duda, Mono, & Wix, etc... I always strive
-                    to learn more and stay up-to-date with the latest technologies to deliver the best results.
-                </p>
-            </div>
-        </div>
-        <div id="education"></div>
-    </div>
-
-
-    <div class="container">
-        <div class="d-flex" style="padding-bottom: 0px;">
-            <div class="column">
-                <h2>Education</h2>
-                <hr>
-            </div>
-        </div>
-
-        <div class="d-flex" style="padding-top: 0px;">
-            <div class="column">
-                <div class="d-flex edu">
-                    <p2>
-                        <font style="color:#DEAD1A;">2016 - 2020</font> <br>
-                        Kunwar Satya Veera College Of Engg. & Mgt.<br>
-                    </p2>
-                    <p3>
-                        ➺ B. Tech. (Bachelor of Technology)
-                    </p3>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="d-flex edu">
-                    <p2>
-                        <font style="color:#DEAD1A;">2020 - 2022</font> <br>
-                        Kunwar Satya Veera College Of Engg. & Mgt.<br>
-                    </p2>
-                    <p3>
-                        ➺ MBA (Master of Business Administration)
-                    </p3>
-                </div>
-            </div>
-        </div>
-        <div id="skills"></div>
-    </div> -->
 
     <!-- skills starts here  -->
 

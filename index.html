@@ -4,8 +4,8 @@
     <title>Apoorv Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-    <link rel="stylesheet" href="./back-code/style.css">
-    <link rel="stylesheet" href="./back-code/responsive.css">
+    <!-- <link rel="stylesheet" href="./back-code/style.css"> -->
+    <!-- <link rel="stylesheet" href="./back-code/responsive.css"> -->
     <script src="https://cdn.tailwindcss.com"></script>
 
 
@@ -28,7 +28,7 @@
                 </div>
                 <div class="flex-1">
                     <ul class="flex xl:justify-end lg:justify-end justify-center mt-6 text-lg">
-                        <a href="#"><li class="px-3 font-lg cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Home</li></a>
+                        <tooltip><a href="#"><li class="px-3 font-lg cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Home</li></a></tooltip>
                         <a href="#about"><li class="px-3 font-lg cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">About</li></a>
                         <a href="#education"><li class="px-3 font-lg cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Education</li></a>
                         <a href="#skills"><li class="px-3 font-lg cursor-pointer py-1 ml-4 bg-[#E8c740] rounded hover:border-b-2 hover:bg-transparent hover:text-white border-b-2 border-[#E8c740]">Skills</li></a>
@@ -60,7 +60,7 @@
 
     <!-- About Section Start Here -->
         <div class="bg-[#333647]" id="about">
-            <div class="container py-[7%] m-auto lg:flex xl:flex">
+            <div class="container py-[7%] m-auto lg:flex xl:flex gap-[30px]">
                 <div class="flex-1 gap-4 basis-1/3 bg-[url(./image/image06.jpg)] bg-cover rounded-2xl">
                     <div class="bg-[#141414] bg-opacity-75 rounded-2xl">
                         <img src="./image/image06.jpg" alt="img" class="rounded-2xl scale-[90%] border-2 border-[#E8C740]">
@@ -81,7 +81,7 @@
             <div class="container m-auto py-[7%]">
                 <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-user-graduate"></i> Education</h2>
                 
-                <div class="lg:flex xl:flex">
+                <div class="lg:flex xl:flex gap-[30px]">
                     <div class="flex-1 gap-4 bg-[#333647] p-5 rounded">
                         <p class="text-[#E8c740] text-xl font-[Rubik]">2016 - 2020</p>
                         <p class="text-white text-2xl leading-loose font-[Rokkitt]"> Kunwar Satya Veera College of Engg. & Mgt.</p>
@@ -102,7 +102,7 @@
             <div class="container m-auto py-[7%]">
                 <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-laptop-code"></i> Skills</h2>
                 
-                <div class="lg:flex xl:flex columns-3">
+                <div class="lg:flex xl:flex columns-3 gap-[20px]">
                     <div class="flex-1 gap-4 p-5 rounded border border-[#E8C740] text-center mb-4">
                         <img src="./image/HTML.jpg" class="h-[100px] m-auto rounded hover:rotate-12">
                         <h2 class="text-[#E8c740] text-3xl font-[Rokkitt] font-semibold mt-2">HTML</h2>
@@ -136,7 +136,7 @@
         <div id="my-projects">
             <div class="container m-auto py-[7%]">
                 <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-briefcase"></i> My Projects</h2>
-                <div class="lg:flex xl:flex columns-2 xl:columns-2 lg:columns-2">
+                <div class="lg:flex xl:flex columns-2 xl:columns-2 lg:columns-2 gap-[15px]">
                     <div>
                         <a href="./work/work01.png" target="_blank"><img src="./work/Works01.jpg" class="mb-5"></a>
                     </div>
@@ -151,7 +151,7 @@
                     </div>
                 </div>
 
-                <div class="lg:flex xl:flex columns-2 xl:columns-4 lg:columns-4">
+                <div class="lg:flex xl:flex columns-2 xl:columns-4 lg:columns-4 gap-[15px]">
                     <div>
                         <a href="./work/work05.png" target="_blank"><img src="./work/Works05.jpg" class="mb-5"></a>
                     </div>
@@ -166,7 +166,7 @@
                     </div>
                 </div>
 
-                <div class="lg:flex xl:flex columns-2 xl:columns-4 lg:columns-4">
+                <div class="lg:flex xl:flex columns-2 xl:columns-4 lg:columns-4 gap-[15px]">
                     <div>
                         <a href="./work/work09.png" target="_blank"><img src="./work/Works09.jpg" class="mb-5"></a>
                     </div>
@@ -188,18 +188,41 @@
     <div id="experience" class="bg-[#333647]">
         <div class="container m-auto py-[7%]">
             <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-building-circle-check"></i> My Experience</h2>
-            <div class="flex gap-4">
-                <div class="text-[#E8C740] text-6xl m-auto"><i class="fa-solid fa-right-long"></i></div>
-                <div class="border-l-2 border-[#E8C740] p-5 bg-[#141414] flex-1">
+            <div class="lg:flex xl:flex gap-4">
+                <div class="rounded p-5 bg-[#141414] basis-1/3">
                     <h3 class="text-white text-3xl font-[Rubik] mb-3">Adaan Digital Solution Private Limited</h3>
-                    <p class="text-[#E8C740] font-[Rubik] text-xl">Web Developer & Designer</p>
-                    <p class="text-[#E8C740] font-[Rubik] text-xl">Feb/2020 - Current</p>
-                    <p class="text-white font-[Rubik] text-base">a</p>
+                    <p class="text-[#E8C740] font-[Rubik] text-xl mb-2">Web Developer & Designer <br> Feb/2020 - Current</p>
+                </div>
+                <div class="rounded p-5 bg-[#141414] basis-2/3">
+                    <p class="text-white font-[Rubik] text-base leading-loose">
+                        Roles & Responsibilities <br>
+                        • Designed & developed responsive & visually appealing websites for a diverse client base, including small businesses, e-commerce stores.<br>
+                        • Collaborated closely with clients to understand their branding, objectives, & user experience goals, resulting in a 95% client satisfaction rate.<br>
+                        • Utilized industry-standard design CMS tools such as Duda, Mono, Wix, WordPress, Sketch, & Figma to create wireframes, mockups, & interactive prototypes.<br>
+                        • Demonstrated expertise in HTML, CSS, JavaScript, & other front-end technologies to implement designs & ensure seamless user interactions.<br>
+                        • Succesfully submitted 2000+ websites in this working time with the 80% - 90% accuracy in work.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <!-- Experience Section End Here -->
+
+    <!-- Contact Us Section Start Here-->
+    <!-- <div id="contact" class="">
+        <div class="container m-auto py-[7%]">
+            <h2 class="text-white text-4xl font-[Rokkitt] font-semibold pb-1 mb-4 border-b-2"><i class="fa-solid fa-id-card"></i> Contact Me</h2>
+            <div class="flex gap-4">
+                <div class="flex-1 text-white p-5 rounded">
+                    a
+                </div>
+                <div class="flex-1 text-white p-5 rounded">
+                    b
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Contact Us Section End Here-->
 
     <!-- Footer Start Here -->
         <div class="bg-[#333647]">
@@ -216,19 +239,19 @@
                     <a href="tel:+917906875025" class="text-[#E8c740] hover:text-[#DEAD1A] pt-4 font-[Rubik] text-lg">+91 - 79068 75025</a>
                     <div class="fixed top-[25%] right-2">
                         <div class="bg-[#E8C740] text-xl p-2 rounded mb-2 hover:bg-[#141414] hover:text-[#E8C740]">
-                            <a href="#"><i class="fa fa-github"></i></a>
+                            <a href="https://github.com/Apoorv-AK-Coder"><i class="fa fa-github"></i></a>
                         </div> 
                         <div class="bg-[#E8C740] text-xl p-2 rounded mb-2 hover:bg-[#141414] hover:text-[#E8C740]">
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/apoorv-agarwal-61417b297/"><i class="fa fa-linkedin"></i></a>
                         </div> 
                         <div class="bg-[#E8C740] text-xl p-2 rounded mb-2 hover:bg-[#141414] hover:text-[#E8C740]">
-                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.instagram.com/_apoorv_agarwal/"><i class="fa-brands fa-square-instagram"></i></a>
                         </div> 
                         <div class="bg-[#E8C740] text-xl p-2 rounded mb-2 hover:bg-[#141414] hover:text-[#E8C740]">
-                            <a href="#"><i class="fa fa-phone"></i></a>
+                            <a href="tel:+917906875025"><i class="fa fa-phone"></i></a>
                         </div>
                         <div class="bg-[#E8C740] text-xl p-2 rounded mb-2 hover:bg-[#141414] hover:text-[#E8C740]">
-                            <a href="#"><i class="fa fa-envelope"></i></a>
+                            <a href="mailto:contact.apoorv.agarwal@gmail.com"><i class="fa fa-envelope"></i></a>
                         </div> 
                       </div>
                 </div>
@@ -243,100 +266,7 @@
     <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
     
     <!-- Script Files End Here -->
-
-    <!-- <div class="container" id="contact">
-        <div class="d-flex" style="padding-bottom: 0%;">
-            <div class="column">
-                <h2>My Work</h2>
-                <hr>
-            </div>
-        </div>
-
-        <div class="d-flex" style="padding-top: 0%;">
-            <div class="column">
-                <div class="d-flex">
-
-                    <div class="owl-carousel owl-theme">
-                        <div class="item"><a href="./work/work01.png" target="_blank"><img src="./work/Works01.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work02.png" target="_blank"><img src="./work/Works02.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work03.png" target="_blank"><img src="./work/Works03.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work04.png" target="_blank"><img src="./work/Works04.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work05.png" target="_blank"><img src="./work/Works05.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work06.png" target="_blank"><img src="./work/Works06.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work07.png" target="_blank"><img src="./work/Works07.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work08.png" target="_blank"><img src="./work/Works08.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work09.png" target="_blank"><img src="./work/Works09.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work10.png" target="_blank"><img src="./work/Works10.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work11.png" target="_blank"><img src="./work/Works11.jpg"></a>
-                        </div>
-                        <div class="item"><a href="./work/work12.png" target="_blank"><img src="./work/Works12.jpg"></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     
-    <script src="./back-code/script.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Frontend Developer &amp; Designer.'],
-            typeSpeed: 60,
-        });
-
-        var typed = new Typed('#element2', {
-            strings: ['A portfolio to show my expertise and work...'],
-            typeSpeed: 60,
-        });
-    </script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-
-        $(document).ready(function () {
-            $(".owl-carousel").owlCarousel();
-        });
-
-        $('.owl-carousel').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            autoplay: true,
-            autoplayTimeout: 2000,
-            autoplayHoverPause: true,
-            animateOut: 'fadeOut',
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                1000: {
-                    items: 3
-                }
-            }
-        })
-    </script>
 </body>
 
 </html>

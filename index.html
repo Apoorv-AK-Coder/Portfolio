@@ -4,49 +4,102 @@
     <title>Apoorv Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rokkitt">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-    <!-- <link rel="stylesheet" href="./back-code/style.css"> -->
-    <!-- <link rel="stylesheet" href="./back-code/responsive.css"> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Play">
     <script src="https://cdn.tailwindcss.com"></script>
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"/>
-
 </head>
 
-<body class="bg-[#141414]">
+<body class="bg-[#141414] bg-[url(./cover/bg03.jpg)] bg-no-repeat bg-left bg-fixed bg-cover">
+
     <!-- Header Start Here -->
-        <div class="bg-[#333647] sticky top-0 z-10">
+
+        <div class="container m-auto py-[20px] sticky top-0 z-10 bg-[#141414] w-[525px] rounded-b-[10px]">
+            <ul class="flex justify-center">
+                <a href="#" title="Home">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-solid fa-house"></i>
+                        </p>
+                    </li>
+                </a>
+
+                <a href="#about" title="About Me">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-solid fa-address-card"></i> 
+                        </p>
+                    </li>
+                </a>
+
+                <a href="#skills" title="Skills">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-solid fa-laptop-code"></i> 
+                        </p>
+                    </li>
+                </a>
+
+                <a href="#education" title="Education">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-solid fa-building-columns"></i> 
+                        </p>
+                    </li>
+                </a>
+
+                <a href="#experience" title="Experience">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-solid fa-briefcase"></i> 
+                        </p>
+                    </li>
+                </a>
+
+                <a href="#my-projects" title="My Own Projects">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-solid fa-bars-progress"></i> 
+                        </p>
+                    </li>
+                </a>
+
+                <a href="#contact" title="Contact Me!">
+                    <li class="cursor-pointer text-white hover:text-[#E8C740] mx-3 text-center border-b-2 border-[#E8C740] pb-2 px-2">
+                        <p class="text-3xl">
+                            <i class="fa-regular fa-id-badge"></i> 
+                        </p>
+                    </li>
+                </a>
+
+            </ul>
+        </div>
+        <!-- <div class="">
             <div class="container lg:flex m-auto py-[15px] xl:flex">
                 <div class="flex justify-center">
                     <img src="./image/img04.png" alt="logo" class="h-[80px]">
                 </div>
                 <div class="flex-1">
                     <ul class="flex xl:justify-end lg:justify-end justify-center mt-6 lg:mt-2.5 xl:mt-2.5 text-lg">
-                        <a href="#" title="Home"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-solid fa-house"></i></p></li></a>
-                        <a href="#about" title="About Me"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-solid fa-address-card"></i></p></li></a>
-                        <a href="#skills" title="Skills"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-solid fa-laptop-code"></i></p></li></a>
-                        <a href="#education" title="Education"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-solid fa-building-columns"></i></p></li></a>
-                        <a href="#experience" title="Experience"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-solid fa-briefcase"></i></p></li></a>
-                        <a href="#my-projects" title="My Projects"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-solid fa-bars-progress"></i></p></li></a>
-                        <a href="#contact" title="Conatct"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] ml-5"><p class="text-3xl"><i class="fa-regular fa-id-badge"></i></p></li></a>
+                        <a href="#" title="Home"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-solid fa-house"></i></p></li></a>
+                        <a href="#about" title="About Me"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-solid fa-address-card"></i></p></li></a>
+                        <a href="#skills" title="Skills"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-solid fa-laptop-code"></i></p></li></a>
+                        <a href="#education" title="Education"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-solid fa-building-columns"></i></p></li></a>
+                        <a href="#experience" title="Experience"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-solid fa-briefcase"></i></p></li></a>
+                        <a href="#my-projects" title="My Projects"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-solid fa-bars-progress"></i></p></li></a>
+                        <a href="#contact" title="Conatct"><li class="cursor-pointer hover:bg-[#E8C740] border-b-4 border-[#e8c740] text-white rounded p-3 hover:text-[#141414] mr-3"><p class="text-3xl"><i class="fa-regular fa-id-badge"></i></p></li></a>
                     </ul>
                 </div>
             </div>
-        </div>
+        </div> -->
     <!-- Header End Here -->
 
     <!-- Hero Start Here -->
-        <div class="bg-[url(./image/curvline.png)] bg-no-repeat bg-left-top bg-cover">
+        <div class="bg-[url(./cover/bg03.jpg)] bg-no-repeat bg-left bg-fixed bg-cover">
             <div class="container m-auto xl:flex lg:flex">
                 <div class="text-white lg:flex-1 xl:flex-1 my-auto py-[15%] lg:py-0 xl:py-0 text-center lg:text-left xl:text-left 2xl:text-left">
                     <p class="text-2xl font-[Rubik]">Hi I'm</p>
-                    <h1 class="text-6xl font-[Rokkitt] text-[#E8c740]">Apoorv Agarwal</h1>
+                    <h1 class="text-6xl font-[Play] text-[#E8c740] leading-relaxed">Apoorv Agarwal</h1>
                     <p class="text-lg font-[Rubik]">Frontend Developer & Designer</p>
                     <p class="text-lg font-[Rubik]">A portfolio to show my Experience & Work...</p>
                     <a href="./image/resume.pdf" download><button class="bg-[#DEAD1A] rounded-full mt-5 text-black px-6 py-3 font-bold font-[Rubik] hover:bg-transparent hover:border-2 hover:text-white border-2 border-[#DEAD1A]">Download Resume <i class="fa-solid fa-download"></i></button></a>
@@ -67,7 +120,7 @@
                     </div>
                 </div>
                 <div class="flex-1 m-auto basis-2/3">
-                    <h2 class="text-white text-4xl font-[Rokkitt] font-semibold py-4">About Me</h2>
+                    <h2 class="text-white text-4xl font-[Rokkitt] py-4">About Me</h2>
                     <p class="font-[Rubik] text-basis leading-loose text-white">
                         Hello, and welcome to my web developer portfolio! I'm Aporv Agarwal, a passionate & dedicated web developer with a strong commitment to creating visually appealing, user-friendly, & efficient websites. With a deep love for technology & an insatiable curiosity for the ever-evolving web development landscape, I have made it my mission to craft exceptional online experiences that not only meet but exceed client expectations.
                         <br>As a web developer, I have expertise in Web Design, Web Development, Responsive Design, Front-end & Back-end Development, UI/UX Design, prototyping, wireframe, and Project Management. I know the multiple CMS platforms i.e. WordPress, Elementor, Duda, Mono, & Wix, etc... I always strive to learn more and stay up-to-date with the latest technologies to deliver the best results.</div>

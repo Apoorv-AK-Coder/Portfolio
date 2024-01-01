@@ -1,4 +1,4 @@
-<html>
+<html class="scroll-smooth">
 
 <head>
     <title>Apoorv Portfolio</title>
@@ -9,13 +9,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gradient-to-r from-[#ad117f] from-10% via-[#782a6e] to-[#000]">
+<body class="bg-gradient-to-tr from-[#ad117f] from-10% via-[#782a6e] to-[#000]">
 
     <!-- Header Start Here -->
     <div class="sticky top-0 z-10">
-        <div class="container m-auto flex p-[15px]">
-                <div class=""><img src="./img/logo.png" class="w-[75px]"></div>
-                <div class="flex-1 my-auto">
+        <div class="container m-auto xl:flex lg:flex justify-center p-[15px]">
+                <div class=""><img src="./img/logo.png" class="m-auto mb-[20px] lg:mb-0 xl:mb-0 w-[75px]"></div>
+                <div class="xl:flex-1 lg:flex-1 my-auto">
                     <ul class="flex justify-center">
                         <li class="px-2 mx-2 hover:underline font-[500] text-white"><a href="#">Home</a></li>
                         <li class="px-2 mx-2 hover:underline font-[500] text-white"><a href="#">About Me</a></li>
@@ -26,12 +26,31 @@
                         <li class="px-2 mx-2 hover:underline font-[500] text-white"><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="flex">
+                <div class="flex justify-center mt-[20px] lg:mb-0 xl:mb-0">
                     <button class="bg-[#ad117f] text-white rounded py-1 px-4 hover:bg-[#782a6e] my-auto">Call Now</button>
                 </div>
         </div>
     </div>
     <!-- Header End Here -->
+
+    <!-- Hero Start Here -->
+    <div>
+        <div class="container m-auto pt-[6%] xl:flex lg:flex">
+            <div class="flex-1 bg-[#ad117f] shadow-xl mb-[6%] shadow-white/20 rounded-full">
+                <div class="py-[25%] text-center">
+                    <p class="text-white font-[Rubik] text-2xl leading-relaxed">Hi I'm</p>
+                    <h1 class="text-[#DEAD1A] font-[Play] text-7xl leading-snug">Apoorv Agarwal</h1>
+                    <p class="text-white font-[Rubik] text-2xl leading-relaxed">Frontend Developer & Designer.</p>
+                    <p class="text-white font-[Rubik] text-2xl leading-relaxed">A portfolio to Show my Exxperience & Work...</p>
+                    <a href="./image/resume.pdf" download><button class="hover:bg-[#DEAD1A] rounded-full mt-5 text-white px-6 py-3 font-bold font-[Rubik] hover:text-black hover:scale-125 border-2 border-[#DEAD1A]">Download Resume <i class="fa-solid fa-download"></i></button></a>
+                </div>
+            </div>
+            <div class="flex-1">
+                <img src="./image/selfimage.png" class="xl:h-[700px] lg:h-[700px] m-auto">
+            </div>
+        </div>
+    </div>
+    <!-- Hero End Here -->
 
     <!-- Hero Start Here -->
         <div class="bg-[url(./cover/bg03.jpg)] bg-no-repeat bg-center bg-fixed bg-cover">

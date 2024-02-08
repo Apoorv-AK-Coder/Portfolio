@@ -12,6 +12,10 @@ body {
     background-color: var(--primary-color);
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 :root {
     --primary-color: #141414;
     --secondry-color: #191919;
@@ -29,7 +33,45 @@ body {
     width: 1280px;
     margin: auto;
     padding: 6% 0;
-    /* background-color: var(--fourth-color); */
+}
+
+.devider {
+    padding: 1px;
+    background-color: white;
+    margin: auto 5px;
+    height: 15px;
+}
+
+.header {
+    background-color: var(--third-color);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+ul li {
+    padding: 0 12px;
+border-bottom: 2px solid var(--third-color);
+
+}
+
+ul li:hover {
+border-bottom: 2px solid var(--fifth-color);
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.head {
+    width: 1280px;
+    margin: auto;
+    padding: 25px 0;
 }
 
 .column {
@@ -103,22 +145,33 @@ button {
     font-family: var(--secondry-font);
     line-height: 2;
     font-size: 18px;
-    margin: 10px 0 0 0;
+    font-weight: 500;
     padding: 3px 20px;
     border-radius: 5px;
-    font-weight: 500;
-    border: 2px dotted #7C3AED;
     cursor: pointer;
     color: var(--fourth-color);
 }
 
 .button1 {
-    /* background-color: #7C3AED; */
     background-color: transparent;
+    margin: 10px 0 0 0;
+    border: 2px dotted #7C3AED;
 }
 
 .button1:hover {
     background-color: #7C3AED;
+}
+
+.download {
+    background-color: var(--third-color);
+    box-shadow: none;
+    border: 2px solid var(--fifth-color);
+    margin: 0;
+}
+
+.download:hover {
+    background-color: var(--primary-color);
+    border: 2px solid var(--fourth-color);
 }
 
 .skills {
@@ -143,11 +196,18 @@ button {
     height: 350px;
 }
 
-.skillimg, .learnimg {text-align: center;}
+.skillimg,
+.learnimg {
+    text-align: center;
+}
 
-.gap { gap: 15px;}
+.gap {
+    gap: 15px;
+}
 
-.learnimg img {height: 450px;}
+.learnimg img {
+    height: 450px;
+}
 
 .edu {
     background-color: white;
@@ -168,7 +228,8 @@ a {
     max-width: 37%;
 }
 
-form input, textarea {
+form input,
+textarea {
     background-color: var(--third-color);
     border: 1px solid white;
     padding: 12px;
@@ -182,6 +243,7 @@ form input, textarea {
     background-color: var(--fifth-color);
     color: var(--primary-color);
     border: none;
+    margin-top: 10px;
 }
 
 .submit:hover {

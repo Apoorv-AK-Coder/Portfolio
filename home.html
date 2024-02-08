@@ -11,6 +11,31 @@
 
 <body>
 
+    <div class="container header">
+        <div class="head d-flex">
+            <div class="column" style="margin: auto;">
+                <ul class="flex">
+                    <a href="#skills"><li><p>Skills</p></li></a>
+
+                    <div class="devider"></div>
+
+                    <a href="#education"><li><p>Education</p></li></a>
+                    
+                    <div class="devider"></div>
+                    
+                    <a href="#"><li><p>Work</p></li></a>
+                    
+                    <div class="devider"></div>
+                    
+                    <a href="#contact"><li><p>Contact</p></li></a>
+                </ul>
+            </div>
+            <div class="column" style="text-align: right;">
+                <a href="./resume.pdf" target="_blank"><button class="download"><i class="fa-solid fa-download fa-bounce"></i> &nbsp;Download Resume</button></a>
+            </div>
+        </div>
+    </div>
+
     <div class="container" style="border-bottom: 1px solid white;">
         <div class="row d-flex">
             <div class="column hero">
@@ -27,7 +52,7 @@
         </div>
     </div>
 
-    <div class="container skillsbg">
+    <div class="container skillsbg" id="skills">
         <div class="row d-flex">
             <div class="column">
                 <h2><i class="fa-solid fa-microchip"></i></h2>
@@ -72,7 +97,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="education">
         <div class="row d-flex">
             <div class="column learnimg">
                 <img src="./images/education.png">
@@ -96,7 +121,7 @@
         </div>
     </div>
 
-    <div class="container" style="background-color: var(--third-color);">
+    <div class="container" style="background-color: var(--third-color);" id="contact">
         <div class="row d-flex gap">
             <div class="column contact">
                 <h2>Contact Information</h2>
@@ -115,7 +140,7 @@
             <div class="column form">
                 <h2>Hire Me</h2>
                 <div class="edu"></div>
-                <form>
+                <form id="contactForm">
                     <div class="column flex gap">
                         <div class="column">
                             <p>Name *</p>
@@ -146,6 +171,14 @@
 
     <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
+
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <script>
+          (function(){
+             emailjs.init('9inrOrQRC9PJsvir-')
+          })();
+       </script>
 
     <!-- Script Files End Here -->
 

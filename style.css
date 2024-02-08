@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play');
+@import url('https://fonts.googleapis.com/css2?family=Itim');
 @import url('https://fonts.googleapis.com/css2?family=Rubik');
 
 * {
@@ -7,7 +8,9 @@
     box-sizing: border-box;
 }
 
-body {background-color: var(--primary-color);}
+body {
+    background-color: var(--primary-color);
+}
 
 :root {
     --primary-color: #141414;
@@ -17,7 +20,8 @@ body {background-color: var(--primary-color);}
     --fifth-color: #22c55e;
 
     /*fonts*/
-    --primary-font: Play;
+    /* --primary-font: Play; */
+    --primary-font: Itim;
     --secondry-font: Rubik;
 }
 
@@ -33,6 +37,10 @@ body {background-color: var(--primary-color);}
 }
 
 .d-flex {
+    display: flex;
+}
+
+.flex {
     display: flex;
 }
 
@@ -69,8 +77,8 @@ h2 {
 h3 {
     font-family: var(--primary-font);
     line-height: 1.5;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 23px;
+    font-weight: 500;
     margin: 0;
     padding: 0;
     color: var(--fourth-color);
@@ -82,6 +90,13 @@ h3 {
 
 .hero {
     margin: auto;
+}
+
+.skillsbg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/skills.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 button {
@@ -102,19 +117,77 @@ button {
     background-color: transparent;
 }
 
-.button1:hover {background-color: #7C3AED;}
+.button1:hover {
+    background-color: #7C3AED;
+}
 
 .skills {
     background-color: var(--third-color);
-    margin: 5px;
-    padding: 25px;
+    margin: 5px 0;
+    padding: 20px;
     border-radius: 10px;
 }
 
 .skills para {
     font-family: var(--secondry-font);
     line-height: 1.3;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
+}
+
+.skills h3 {
+    margin: auto 0 auto 10px;
+}
+
+.skillimg img {
+    height: 350px;
+}
+
+.skillimg, .learnimg {text-align: center;}
+
+.gap { gap: 15px;}
+
+.learnimg img {height: 450px;}
+
+.edu {
+    background-color: white;
+    padding: 2px;
+    width: 125px;
+    margin-bottom: 15px;
+}
+
+hr {
+    margin: 15px 0;
+}
+
+a {
     color: var(--fifth-color);
+}
+
+.contact {
+    max-width: 37%;
+}
+
+form input, textarea {
+    background-color: var(--third-color);
+    border: 1px solid white;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: white;
+}
+
+.submit {
+    background-color: var(--fifth-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+.submit:hover {
+    background-color: var(--fourth-color);
+}
+
+.form {
+    padding-left: 20px;
 }

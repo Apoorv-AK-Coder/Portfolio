@@ -3,7 +3,6 @@
 <head>
     <title>Portfolio | Apoorv Agarwal's Portfolio to Show My Experience, Work, & Skills...</title>
     <meta name="google-site-verification" content="G4708zCWzhaaW-oyuqtygEj9RmX7Qkp1nX9yTM0kjCA" />
-
     <link rel="icon" type="image/x-icon" href="./image/favicon.jpg">
 
     <link rel="stylesheet" href="./style.css">
@@ -19,43 +18,126 @@
                 <h2>I thrive in developing outstanding, impactful applications.</h2>
                 <p>Frontend Developer & Designer</p>
                 <p>A portfolio to show my Experience & Work...</p>
-                <button class="button1"><i class="fa-brands fa-github fa-beat"></i> GitHub Profile</button>
+                <a href="https://github.com/Apoorv-AK-Coder" target="_blank"><button class="button1"><i
+                            class="fa-brands fa-github fa-beat"></i> GitHub Profile</button></a>
             </div>
             <div class="column">
-                <img src="./img-1.png" class="img">
+                <img src="./images/img-1.png" class="img">
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="column" style="text-align:center;">
+    <div class="container skillsbg">
+        <div class="row d-flex">
+            <div class="column">
                 <h2><i class="fa-solid fa-microchip"></i></h2>
                 <h2>Skills & Technologies</h2>
+                <div class="edu"></div>
                 <p>Driving Frontend Development Excellence with Advanced Skills and Technologies.</p>
-                <p>Delivering Engaging Interfaces and High-Performance Web Solutions for the Modern Digital Landscape.</p>
+                <p>Delivering Engaging Interfaces and High-Performance Web Solutions for the Modern Digital Landscape.
+                </p>
+                <div class="column flex gap">
+                    <div class="column skills flex">
+                        <para style="color: #FF5325;"><i class="fa-brands fa-html5"></i></para>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="column skills flex">
+                        <para style="color: #2965f1;"><i class="fa-brands fa-css3-alt"></i></para>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="column skills flex">
+                        <para style="color: #F7DF1E;"><i class="fa-brands fa-square-js"></i></para>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="column flex gap">
+                    <div class="column skills flex">
+                        <para style="color: #21759b;"><i class="fa-brands fa-wordpress"></i></para>
+                        <h3>WordPress</h3>
+                    </div>
+                    <div class="column skills flex">
+                        <para style="color: #46F2B6;"><i class="fa-brands fa-elementor"></i></para>
+                        <h3>Elementor</h3>
+                    </div>
+                    <div class="column skills flex">
+                        <para style="color: #A259FF;"><i class="fa-brands fa-figma"></i></para>
+                        <h3>Figma</h3>
+                    </div>
+                </div>
             </div>
-            <div class="column d-flex">
-                <div class="column skills">
-                    <para><i class="fa-brands fa-html5"></i></para>
-                    <p>asfdh</p>
-                </div>
-                <div class="column skills">
-                    <para><i class="fa-brands fa-css3-alt"></i></para>
-                    <p>asfdh</p>
-                </div>
-                <div class="column skills">
-                    <p>asfdh</p>
-                </div>
+            <div class="column skillimg">
+                <img src="./images/img2.png">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row d-flex">
+            <div class="column learnimg">
+                <img src="./images/education.png">
+            </div>
+            <div class="column">
+                <h2>My Education</h2>
+                <div class="edu"></div>
+                <h2 style="color: var(--fifth-color);">MBA (IT)</h2>
+                <h3>Kunwar Satya Veera College of Engg. & Management, 2022</h3>
+                <p><i class="fa-solid fa-right-long"></i>&nbsp; Attained an MBA degree with a specialization in HR & IT,
+                    enhancing skills in leadership,
+                    strategic management, finance, and marketing.</p>
+                <hr>
+
+                <h2 style="color: var(--fifth-color);">B. Tech (CSE)</h2>
+                <h3>Kunwar Satya Veera College of Engg. & Management, 2020</h3>
+                <p><i class="fa-solid fa-right-long"></i>&nbsp; Completed a comprehensive program encompassing
+                    <b>Bachelor of Technology</b>, with a focus on Computer Science & Engg..</p>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="background-color: var(--third-color);">
+        <div class="row d-flex gap">
+            <div class="column contact">
+                <h2>Contact Information</h2>
+                <div class="edu"></div>
+                <h3>Corrent Address:</h3>
+                <p>Laxmi Nagar, New Delhi, 110092</p>
+                <hr>
+                <h3>Permanent Address:</h3>
+                <p>Bijnor, Uttar Pradesh, 246701</p>
+                <hr>
+                <p><i class="fa-solid fa-at"></i> <a href="mailto:Contact.apoorv.agarwal@gmail.com">Contact.apoorv.agarwal@gmail.com</a></p>
+                <p><i class="fa-brands fa-whatsapp"></i> <a href="tel:+917906875025">+91-7906875025</a></p>
+                <p><i class="fa-solid fa-mobile-screen-button fa-shake"></i> <a href="tel:+917037202867">+91-7037202867</a></p>
+
+            </div>
+            <div class="column form">
+                <h2>Hire Me</h2>
+                <div class="edu"></div>
+                <form>
+                    <div class="column flex gap">
+                        <div class="column">
+                            <p>Name *</p>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="column">
+                            <p>E-mail *</p>
+                            <input type="email" id="email" required>
+                        </div>
+                    </div>
+                    <p>Message *</p>
+                    <textarea id="message" required></textarea>
+                    <button type="submit" class="submit">Submit</button>
+                </form>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row" style="padding: 1% 0; text-align: center;">
             <div class="column">
-                <h2>HI</h2>
-                <p>Ak</p>
+                <p>Design & Develop by Apoorv Agarwal</p>
             </div>
         </div>
     </div>

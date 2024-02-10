@@ -3,41 +3,79 @@
 <head>
     <title>Portfolio | Apoorv Agarwal's Portfolio to Show My Experience, Work, & Skills...</title>
     <meta name="google-site-verification" content="G4708zCWzhaaW-oyuqtygEj9RmX7Qkp1nX9yTM0kjCA" />
-    <link rel="icon" type="image/x-icon" href="./image/favicon.jpg">
+    <!-- <link rel="icon" type="image/x-icon" href="./images/favicon.ico"> -->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsivestyle.css">
 
 </head>
 
 <body>
 
     <div class="container header">
-        <div class="head d-flex">
+        <div class="head flex">
             <div class="column" style="margin: auto;">
-                <ul class="flex">
-                    <a href="#skills"><li><p>Skills</p></li></a>
+                <navbar>
+                    <ul class="flex">
 
-                    <div class="devider"></div>
+                        <a href="#">
+                            <li>
+                                <p>Home</p>
+                            </li>
+                        </a>
 
-                    <a href="#education"><li><p>Education</p></li></a>
-                    
-                    <div class="devider"></div>
-                    
-                    <a href="#"><li><p>Work</p></li></a>
-                    
-                    <div class="devider"></div>
-                    
-                    <a href="#contact"><li><p>Contact</p></li></a>
-                </ul>
+                        <div class="devider"></div>
+
+                        <a href="#skills">
+                            <li>
+                                <p>Skills</p>
+                            </li>
+                        </a>
+
+                        <div class="devider"></div>
+
+                        <a href="#education">
+                            <li>
+                                <p>Education</p>
+                            </li>
+                        </a>
+
+                        <div class="devider"></div>
+
+                        <a href="#experience">
+                            <li>
+                                <p>Experience</p>
+                            </li>
+                        </a>
+
+                        <div class="devider"></div>
+
+                        <a href="#work">
+                            <li>
+                                <p>Work</p>
+                            </li>
+                        </a>
+
+                        <div class="devider"></div>
+
+                        <a href="#contact">
+                            <li>
+                                <p>Contact</p>
+                            </li>
+                        </a>
+                    </ul>
+                </navbar>
             </div>
             <div class="column" style="text-align: right;">
-                <a href="./resume.pdf" target="_blank"><button class="download"><i class="fa-solid fa-download fa-bounce"></i> &nbsp;Download Resume</button></a>
+                <a href="./resume.pdf" target="_blank"><button class="download"><i
+                            class="fa-solid fa-download fa-bounce"></i> &nbsp;Download Resume</button></a>
             </div>
         </div>
     </div>
 
     <div class="container" style="border-bottom: 1px solid white;">
-        <div class="row d-flex">
+        <div class="row d-flex herohead">
             <div class="column hero">
                 <h1>HI, I am <font style="color: var(--fifth-color);">Apoorv Agarwal</font>.</h1>
                 <h2>I thrive in developing outstanding, impactful applications.</h2>
@@ -90,7 +128,7 @@
                     </div>
                 </div>
             </div>
-            <div class="column skillimg">
+            <div class="column skilling">
                 <img src="./images/img2.png">
             </div>
 
@@ -99,7 +137,7 @@
 
     <div class="container" id="education">
         <div class="row d-flex">
-            <div class="column learnimg">
+            <div class="column learning">
                 <img src="./images/education.png">
             </div>
             <div class="column">
@@ -115,19 +153,56 @@
                 <h2 style="color: var(--fifth-color);">B. Tech (CSE)</h2>
                 <h3>Kunwar Satya Veera College of Engg. & Management, 2020</h3>
                 <p><i class="fa-solid fa-right-long"></i>&nbsp; Completed a comprehensive program encompassing
-                    <b>Bachelor of Technology</b>, with a focus on Computer Science & Engg..</p>
+                    <b>Bachelor of Technology</b>, with a focus on Computer Science & Engg..
+                </p>
                 <hr>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" id="experience" style="background-color: var(--third-color);">
+        <div class="row">
+            <div class="column">
+                <h2>My Experience</h2>
+                <hr> 
+                <h2>Adaan Digital Solution Private Limited</h2>
+                    <h3>
+                        <font style="color: var(--fifth-color);">Designation: </font>Web Designer / <font
+                            style="color: var(--fifth-color);">Tenure: </font>Feb.2020 - Current
+                    </h3>
+            </div>
+            <div class="column d-flex gap">
+                <div class="column">
+                    <h3 style="color: var(--fifth-color);"><i class="fa-solid fa-right-long"></i> Roles & Responsibilities</h3>
+                    <ul>
+                        <li>Designed & developed responsive & visually appealing websites for a diverse client base,
+                            including small businesses, e-commerce stores.</li>
+                        <li>Collaborated closely with clients to understand their branding, objectives, & user experience
+                            goals, resulting in a 95% client satisfaction rate.</li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <ul>
+                        
+                        <li>Utilized industry-standard design CMS tools such as Duda, Mono, Wix, WordPress, Sketch, & Figma
+                            to create wireframes, mockups, & interactive prototypes.</li>
+                        <li>Demonstrated expertise in HTML, CSS, JavaScript, & other front-end technologies to implement
+                            designs & ensure seamless user interactions.</li>
+                        <li>Succesfully submitted 2000+ websites in this working time with the 80% - 90% accuracy in work.
+                        </li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="work">
         <div class="row">
             <div class="column">
                 <h2>My Work</h2>
                 <div class="edu"></div>
             </div>
-            <div class="column d-flex gap">
+            <div class="column flex gap">
                 <div class="column">
                     <h2>E-commerce</h2>
                     <iframe src="https://apoorv-ak-coder.github.io/SIMPLE-STITCH-WEAR/"></iframe>
@@ -137,7 +212,7 @@
                     <iframe src="https://apoorv-ak-coder.github.io/NetFlix-Clone/"></iframe>
                 </div>
             </div>
-            <div class="column d-flex gap">
+            <div class="column flex gap">
                 <div class="column">
                     <h2>Digital Web</h2>
                     <iframe src="https://apoorv-ak-coder.github.io/Digital-Web/"></iframe>
@@ -147,11 +222,11 @@
                     <iframe src="https://apoorv-ak-coder.github.io/ChatBot/"></iframe>
                 </div>
             </div>
-            
+
         </div>
     </div>
 
-    <div class="container" style="background-color: var(--third-color);" id="contact">
+    <div class="container" id="contact" style="background-color: var(--third-color);">
         <div class="row d-flex gap">
             <div class="column contact">
                 <h2>Contact Information</h2>
@@ -162,9 +237,11 @@
                 <h3>Permanent Address:</h3>
                 <p>Bijnor, Uttar Pradesh, 246701</p>
                 <hr>
-                <p><i class="fa-solid fa-at"></i> <a href="mailto:Contact.apoorv.agarwal@gmail.com">Contact.apoorv.agarwal@gmail.com</a></p>
+                <p><i class="fa-solid fa-at"></i> <a
+                        href="mailto:Contact.apoorv.agarwal@gmail.com">Contact.apoorv.agarwal@gmail.com</a></p>
                 <p><i class="fa-brands fa-whatsapp"></i> <a href="tel:+917906875025">+91-7906875025</a></p>
-                <p><i class="fa-solid fa-mobile-screen-button fa-shake"></i> <a href="tel:+917037202867">+91-7037202867</a></p>
+                <p><i class="fa-solid fa-mobile-screen-button fa-shake"></i> <a
+                        href="tel:+917037202867">+91-7037202867</a></p>
 
             </div>
             <div class="column form">
@@ -189,7 +266,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container" style="border-top: 2px solid var(--third-color);">
         <div class="row" style="padding: 1% 0; text-align: center;">
             <div class="column">
                 <p>Design & Develop by Apoorv Agarwal</p>
@@ -202,13 +279,12 @@
     <script src="https://kit.fontawesome.com/513bc71f1a.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-      <script>
-          (function(){
-             emailjs.init('9inrOrQRC9PJsvir-')
-          })();
-       </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init('9inrOrQRC9PJsvir-')
+        })();
+    </script>
 
     <!-- Script Files End Here -->
 

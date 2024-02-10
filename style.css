@@ -14,7 +14,7 @@ body {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 :root {
     --primary-color: #141414;
@@ -49,22 +49,22 @@ html {
     z-index: 1;
 }
 
-ul {
+navbar ul {
     list-style: none;
     text-align: center;
 }
 
-ul li {
+navbar ul li {
     padding: 0 12px;
-border-bottom: 2px solid var(--third-color);
+    border-bottom: 2px solid var(--third-color);
 
 }
 
-ul li:hover {
-border-bottom: 2px solid var(--fifth-color);
+navbar ul li:hover {
+    border-bottom: 2px solid var(--fifth-color);
 }
 
-ul a {
+navbar ul a {
     text-decoration: none;
 }
 
@@ -192,12 +192,12 @@ button {
     margin: auto 0 auto 10px;
 }
 
-.skillimg img {
+.skilling img {
     height: 350px;
 }
 
-.skillimg,
-.learnimg {
+.skilling,
+.learning {
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ button {
     gap: 15px;
 }
 
-.learnimg img {
+.learning img {
     height: 450px;
 }
 
@@ -258,4 +258,13 @@ iframe {
     width: 100%;
     height: 350px;
     margin-bottom: 10px;
+}
+
+ul li {
+    font-family: var(--secondry-font);
+    line-height: 2;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: var(--fourth-color);
 }

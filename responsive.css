@@ -1,0 +1,150 @@
+@media (max-width:992px) {
+
+	.d-flex {
+		flex-direction: column;
+	}
+
+	/* .herohead {
+		display: flex !important;
+		flex-direction: column-reverse !important;
+	} */
+
+	h1 { font-size: 50px; }
+	h2 { font-size: 40px; }
+	h3 { font-size: 25px; }
+	p { font-size: 16px; }
+	
+	.img {
+		width: 425;
+	}
+
+	#element, #element2 { font-size: 30px; }
+
+	.column { padding: 0px !important; }
+
+	#img { width:50% }
+
+	#about { width: auto !important; margin-bottom: 20px; }
+
+	#skillinfo {
+		width: 100%;
+		flex-direction: row !important;
+		flex-wrap: nowrap;
+		column-count: 3;
+		;
+	}
+
+
+	
+	.d-flex {
+		/* flex-direction: column !important; */
+    	flex-wrap: wrap;
+    	padding: 4%;
+		width: 100%;
+	}
+
+	.button {
+		margin :15px auto;
+	}
+
+
+	#footer { margin-top: 30px; }
+	.social-icons { top: 75%; }
+	.icon { font-size: 50px !important; padding: 12px !important; }
+
+	.hero-row {
+		height: 1230;
+	}
+
+	.column1 {
+		padding-top: 14% !important;
+		padding-bottom: 14% !important;
+		text-align:center;
+	}
+
+	.edu {
+		display: block !important;
+  		/* flex-wrap: nowrap; */
+
+	}
+
+	.img2 {  
+		margin-bottom: 0px; margin-right: auto; width: 500px; 
+	}
+	
+	/* Mobile menu start  */
+	.header{
+		width: 100%;
+		
+
+	}
+	.header .d-flex{
+		width: 100%;
+		justify-content: space-between !important;
+		/* background-color: red; */
+	}
+	.header .d-flex .logo{
+		/* background-color: pink; */
+		width: 30%;
+	}
+
+	.hamburgerMenu{
+		width: 8%;
+		/* background-color: green; */
+		display: block;
+	  
+	}
+	.navbar {
+		/* background-color: green; */
+		width:55%;
+		display: none;
+		position: absolute;
+		right: 0;
+		top: 100%;
+		height: 100vh;
+	}
+
+	.navbar .ul .d-flex{
+		align-items: start !important;
+	}
+	.navbar .ul{
+		flex-direction: column;
+		/* background-color: red !important; */
+		justify-content: center;
+		height: 100vh;
+
+	}
+	.navbar .ul li{
+		margin: 25px;
+		/* background-color: pink; */
+	}
+	.navbar .d-flex {
+		justify-content: center !important;
+	}
+	.ul li {
+		width: 100%;
+	}
+	.navbar a { 
+		/* background-color: red; */
+	}
+	.active{
+		display: block !important;
+	}
+
+	/* Mobile menu end  */
+
+	/* skills starts here  */
+	.skills { 
+		margin-top: 15px; 
+		width: 100%; 
+		background-color: green;
+	}
+	.skills .bottom .column{
+		width: 30%;
+		background-color: red;
+	}
+	/* skills starts here  */
+
+
+
+}

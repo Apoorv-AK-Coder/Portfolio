@@ -268,3 +268,5 @@ ul li {
     padding: 0;
     color: var(--fourth-color);
 }
+
+.btn {text-align: right;}

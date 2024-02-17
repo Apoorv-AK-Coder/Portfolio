@@ -57,7 +57,6 @@ navbar ul {
 navbar ul li {
     padding: 0 12px;
     border-bottom: 2px solid var(--third-color);
-
 }
 
 navbar ul li:hover {
@@ -66,6 +65,7 @@ navbar ul li:hover {
 
 navbar ul a {
     text-decoration: none;
+    color: var(--fourth-color);
 }
 
 .head {

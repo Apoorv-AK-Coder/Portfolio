@@ -22,3 +22,4 @@ contactForm.addEventListener('submit', (e) => {
         alert("An error occurred while sending the email. Please try again later.");
     });
 });
+

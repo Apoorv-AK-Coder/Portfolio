@@ -63,6 +63,10 @@ navbar ul li:hover {
     border-bottom: 2px solid var(--fifth-color);
 }
 
+.active-nav {
+    border-bottom: 2px solid var(--fifth-color);
+}
+
 navbar ul a {
     text-decoration: none;
     color: var(--fourth-color);

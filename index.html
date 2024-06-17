@@ -18,7 +18,7 @@
                 <navbar>
                     <ul class="flex">
 
-                        <li>
+                        <li id="nav-home">
                             <a href="#home">
                                 <p>Home</p>
                             </a>
@@ -26,7 +26,7 @@
 
                         <div class="devider"></div>
 
-                        <li>
+                        <li id="nav-skills">
                             <a href="#skills">
                                 <p>Skills</p>
                             </a>
@@ -34,7 +34,7 @@
 
                         <div class="devider"></div>
 
-                        <li>
+                        <li id="nav-education">
                             <a href="#education">
                                 <p>Education</p>
                             </a>
@@ -42,7 +42,7 @@
 
                         <div class="devider"></div>
 
-                        <li>
+                        <li id="nav-experience">
                             <a href="#experience">
                                 <p>Experience</p>
                             </a>
@@ -50,7 +50,7 @@
 
                         <div class="devider"></div>
 
-                        <li>
+                        <li id="nav-work">
                             <a href="#work">
                                 <p>Work</p>
                             </a>
@@ -58,7 +58,7 @@
 
                         <div class="devider"></div>
 
-                        <li>
+                        <li id="nav-contact">
                             <a href="#contact">
                                 <p>Contact</p>
                             </a>
@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <div class="container" style="border-bottom: 1px solid white;">
+    <div class="container section" style="border-bottom: 1px solid white;" id="home">
         <div class="row d-flex herohead" style="padding-bottom: 0;">
             <div class="column hero">
                 <h1>HI, I am <font style="color: var(--fifth-color);">Apoorv Agarwal</font>.</h1>
@@ -90,7 +90,7 @@
         </div>
     </div>
 
-    <div class="container skillsbg" id="skills">
+    <div class="container skillsbg section" id="skills">
         <div class="row d-flex">
             <div class="column">
                 <h2><i class="fa-solid fa-microchip"></i></h2>
@@ -149,7 +149,7 @@
         </div>
     </div>
 
-    <div class="container" id="education">
+    <div class="container section" id="education">
         <div class="row d-flex">
             <div class="column learning">
                 <img src="./images/education.png">
@@ -174,7 +174,7 @@
         </div>
     </div>
 
-    <div class="container" id="experience" style="background-color: var(--third-color);">
+    <div class="container section" id="experience" style="background-color: var(--third-color);">
         <div class="row">
             <div class="column">
                 <h2>My Experience</h2>
@@ -214,7 +214,7 @@
         </div>
     </div>
 
-    <div class="container" id="work">
+    <div class="container section" id="work">
         <div class="row">
             <div class="column">
                 <h2>My Work</h2>
@@ -256,7 +256,7 @@
         </div>
     </div>
 
-    <div class="container" id="contact" style="background-color: var(--third-color);">
+    <div class="container section" id="contact" style="background-color: var(--third-color);">
         <div class="row d-flex gap">
             <div class="column contact">
                 <h2>Contact Information</h2>
@@ -317,7 +317,30 @@
     </script>
 
     <!-- Script Files End Here -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("scroll", function() {
+        var sections = document.querySelectorAll(".section");
+        var navItems = document.querySelectorAll("navbar ul li");
+        sections.forEach(function(section) {
+            var top = section.offsetTop - 50;
+            console.log(top);
+            var id = section.getAttribute("id");
+            if (window.scrollY >= top) {
+                navItems.forEach(function(item) {
+                    item.classList.remove("active-nav");
+                });
+                var activeNavItem = document.querySelector(`#nav-${id}`);
+                if (activeNavItem) {
+                    activeNavItem.classList.add("active-nav");
+                }
+            }
+        });
+    });
+});
+</script>
 
 </body>
+
 
 </html>

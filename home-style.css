@@ -36,11 +36,40 @@ html {
 .row {
     width: 1200px;
     margin: auto;
-    padding: 6% 0;
+    padding: 150px 0 100px 0;
 }
 
 .column {
+    background-color: var(--fourth-color);
     flex: 1;
+    border-radius: 10px;
+}
+
+.nav-column {
+    background-color: var(--fourth-color);
+    border-radius: 10px;
+    padding: 12px;
+    width: 10%;
+    margin-bottom: auto;
+}
+
+.left-column {
+    background-color: var(--fourth-color);
+    width: 25%;
+    padding: 0 20px 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 112;
+
+    img {
+        width: 224px;
+        border-radius: 10px;
+        margin-top: -112px;
+    }
+}
+
+.center-column {
+    width: 100%;
 }
 
 .d-flex {
@@ -61,21 +90,6 @@ navbar ul li {
     /* border-bottom: 2px solid var(--third-color); */
 }
 
-navbar ul li:hover {
-    border-bottom: 2px solid var(--fifth-color);
-    color: var(--fifth-color);
-}
-
-.active-nav {
-    /* border-bottom: 2px solid var(--fifth-color); */
-    color: var(--fifth-color);
-}
-
-navbar ul a {
-    text-decoration: none;
-    color: var(--fourth-color);
-}
-
 p {
     font-family: var(--secondry-font);
     line-height: 2;
@@ -85,21 +99,32 @@ p {
     color: var(--fourth-color);
 }
 
+intro {
+    font-family: var(--secondry-font);
+    line-height: 2;
+    font-size: 16px;
+    color: var(--primary-color);
+    padding: 6px 10px;
+    margin: auto;
+    background-color: rgba(20, 20, 20, 0.3);
+    border-radius: 6px;
+}
+
 h1 {
     font-family: var(--primary-font);
     line-height: 1.5;
-    font-size: 45px;
+    font-size: 37px;
     font-weight: 500;
     margin: 0;
     padding: 0;
-    color: var(--fourth-color);
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: var(--fifth-color);
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
 }
 
 h2 {
     font-family: var(--primary-font);
     line-height: 1.5;
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 400;
     margin: 0;
     padding: 0;
@@ -114,4 +139,22 @@ h3 {
     margin: 0;
     padding: 0;
     color: var(--fourth-color);
+}
+
+ul li img {
+    background-color: var(--fourth-color);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 7px;
+    width:70px;
+    margin: 5px 0;
+}
+
+ul li img:hover {
+    background-color: var(--fifth-color);
+    transform: scale(1.1);
+}
+
+.gap {
+    gap:20px;
 }

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Play');
+@import url('https://fonts.googleapis.com/css2?family=Itim');
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/homebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #141414;
+    --secondry-color: #191919;
+    --third-color: #323232;
+    --fourth-color: #ffffff;
+    --fifth-color: #22c55e;
+
+    /*fonts*/
+    /* --primary-font: Play; */
+    --primary-font: Itim;
+    --secondry-font: Rubik;
+}
+
+.row {
+    width: 1200px;
+    margin: auto;
+    padding: 6% 0;
+}
+
+.column {
+    flex: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+navbar ul {
+    list-style: none;
+    text-align: center;
+}
+
+navbar ul li {
+    padding: 0 12px;
+    /* border-bottom: 2px solid var(--third-color); */
+}
+
+navbar ul li:hover {
+    border-bottom: 2px solid var(--fifth-color);
+    color: var(--fifth-color);
+}
+
+.active-nav {
+    /* border-bottom: 2px solid var(--fifth-color); */
+    color: var(--fifth-color);
+}
+
+navbar ul a {
+    text-decoration: none;
+    color: var(--fourth-color);
+}
+
+p {
+    font-family: var(--secondry-font);
+    line-height: 2;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: var(--fourth-color);
+}
+
+h1 {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: var(--fourth-color);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    font-size: 35px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    color: var(--fourth-color);
+}
+
+h3 {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: var(--fourth-color);
+}

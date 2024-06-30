@@ -19,11 +19,47 @@
             <div class="colum left-column">
                 <img src="./assset/my-pic.png">
                 <h1>Apoorv Agarwal</h1>
-                <intro>Web Developer</intro>
+                <intro>Front-end Developer</intro>
+                <div class="social-col flex">
+                    <a href=""><img src="./assset/github.png" alt="Github" title="Github"></a>
+                    <a href=""><img src="./assset/linkedin.png" alt="Linkedin" title="Linkedin"></a>
+                    <a href=""><img src="./assset/instagram.png" alt="Instagram" title="Instagram"></a>
+                </div>
+
+                <div class="column contact-info">
+                    <img src="./assset/email.png">
+                    <a href="mailto:contact.apoorv.agarwal@gmail.com">
+                        <p>contact.apoorv.agarwal@gmail.com</p>
+                    </a>
+                </div>
+
+                <div class="column contact-info">
+                    <img src="./assset/whatsapp.png">
+                    <a href="tel:+917906875025">
+                        <p>+91-7906875025</p>
+                    </a>
+                </div>
+
+                <div class="column contact-info">
+                    <img src="./assset/location.png">
+                    <p>Noida, U.P.</p>
+                </div>
             </div>
 
             <div class="column center-column">
-                
+                <div class="flex gap">
+                    <h2>About Me</h2>
+                    <div class="devider"></div>
+                </div>
+
+                <p>A talented and versatile web developer with a strong foundation in computer science from Kunwar Satya
+                    Veera College of Engineering & Management and extensive expertise in web technologies. Equipped with
+                    a keen eye for design and user experience, leveraging tools like Figma to craft visually appealing
+                    and highly functional web applications.<br>
+                    Passionate about continuous learning and problem-solving, with a knack for identifying and
+                    implementing creative approaches to enhance the overall user experience. Proficient in Front-end
+                    technologies like HTML, CSS, and JavaScript and skilled in implementing modern CSS techniques like
+                    SCSS, and Tailwind.</p>
             </div>
 
             <div class="colum nav-column">
@@ -71,7 +107,7 @@
 
     </div>
 
-    
+
 
     <!-- Script Files Start Here -->
 
@@ -86,28 +122,28 @@
     </script>
 
     <!-- Script Files End Here -->
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-    window.addEventListener("scroll", function() {
-        var sections = document.querySelectorAll(".section");
-        var navItems = document.querySelectorAll("navbar ul li");
-        sections.forEach(function(section) {
-            var top = section.offsetTop - 50;
-            console.log(top);
-            var id = section.getAttribute("id");
-            if (window.scrollY >= top) {
-                navItems.forEach(function(item) {
-                    item.classList.remove("active-nav");
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            window.addEventListener("scroll", function () {
+                var sections = document.querySelectorAll(".section");
+                var navItems = document.querySelectorAll("navbar ul li");
+                sections.forEach(function (section) {
+                    var top = section.offsetTop - 50;
+                    console.log(top);
+                    var id = section.getAttribute("id");
+                    if (window.scrollY >= top) {
+                        navItems.forEach(function (item) {
+                            item.classList.remove("active-nav");
+                        });
+                        var activeNavItem = document.querySelector(`#nav-${id}`);
+                        if (activeNavItem) {
+                            activeNavItem.classList.add("active-nav");
+                        }
+                    }
                 });
-                var activeNavItem = document.querySelector(`#nav-${id}`);
-                if (activeNavItem) {
-                    activeNavItem.classList.add("active-nav");
-                }
-            }
+            });
         });
-    });
-});
-</script>
+    </script>
 
 </body>
 

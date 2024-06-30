@@ -45,6 +45,10 @@ html {
     border-radius: 10px;
 }
 
+.box {
+    padding: 30px;
+}
+
 .nav-column {
     background-color: var(--fourth-color);
     border-radius: 10px;
@@ -60,16 +64,43 @@ html {
     border-radius: 10px;
     text-align: center;
     margin-top: 112;
+    margin-bottom: auto;
 
     img {
         width: 224px;
         border-radius: 10px;
         margin-top: -112px;
     }
+
+    .social-col {
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        padding: 0 60px;
+    }
+
+    .social-col img {
+        width: 35px;
+        margin: 20px 5px;
+    }
+
+    .contact-info {
+        background-color: rgba(20, 20, 20, 0.2);
+        padding: 15px;
+        margin: 5px 0;
+    }
+
+    .contact-info img {
+        width: 30px;
+        height: 30px;
+        margin: 10px 0;
+        border-radius: 0px;
+    }
 }
 
 .center-column {
     width: 100%;
+    padding: 40px;
 }
 
 .d-flex {
@@ -90,13 +121,21 @@ navbar ul li {
     /* border-bottom: 2px solid var(--third-color); */
 }
 
+.devider {
+    padding: 1px;
+    background-color: var(--fifth-color);
+    margin: auto 0;
+    height: 2px;
+    flex:1;
+}
+
 p {
     font-family: var(--secondry-font);
     line-height: 2;
     font-size: 16px;
     margin: 0;
     padding: 0;
-    color: var(--fourth-color);
+    color: var(--primary-color);
 }
 
 intro {
@@ -106,7 +145,7 @@ intro {
     color: var(--primary-color);
     padding: 6px 10px;
     margin: auto;
-    background-color: rgba(20, 20, 20, 0.3);
+    background-color: rgba(20, 20, 20, 0.2);
     border-radius: 6px;
 }
 
@@ -115,7 +154,7 @@ h1 {
     line-height: 1.5;
     font-size: 37px;
     font-weight: 500;
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
     color: var(--fifth-color);
     /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); */
@@ -124,11 +163,11 @@ h1 {
 h2 {
     font-family: var(--primary-font);
     line-height: 1.5;
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 400;
     margin: 0;
     padding: 0;
-    color: var(--fourth-color);
+    color: var(--primary-color);
 }
 
 h3 {

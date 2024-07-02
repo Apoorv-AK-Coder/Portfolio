@@ -49,6 +49,15 @@ html {
     padding: 30px;
 }
 
+.innerrow {
+    background-color: rgba(34, 197, 94, 0.3);
+    padding: 20px;
+}
+
+.gap1 {
+    gap: 10px;
+}
+
 .nav-column {
     background-color: var(--fourth-color);
     border-radius: 10px;
@@ -197,3 +206,7 @@ ul li img:hover {
 .gap {
     gap:20px;
 }
+
+/*#skills, #education, #experience, #work, #contact {
+    display: none;
+}*/

@@ -182,11 +182,21 @@ h2 {
 h3 {
     font-family: var(--primary-font);
     line-height: 1.5;
-    font-size: 23px;
+    font-size: 25px;
     font-weight: 500;
     margin: 0;
     padding: 0;
-    color: var(--fourth-color);
+    color: var(--primary-color);
+}
+
+h4 {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: var(--fifth-color);
 }
 
 ul li img {
@@ -207,6 +217,67 @@ ul li img:hover {
     gap:20px;
 }
 
+.skills {
+    background-color: rgba(20, 20, 20, 0.1);
+    padding: 20px;
+    text-align: center;
+    column-count: 5;
+    border-radius: 10px;
+    margin-top: 20px;
+    img {
+        height:65px;
+    }
+
+    space {
+        padding: 10px;
+    }
+
+    figcaption {
+        font-family: var(--secondry-font);
+    line-height: 2;
+    font-size: 17px;
+    margin: 0;
+    padding: 2px;
+    color: var(--primary-color);
+    }
+}
+
 /*#skills, #education, #experience, #work, #contact {
     display: none;
 }*/
+
+form input,
+textarea {
+    background-color: rgba(20, 20, 20, 0.1);
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    margin: 5px 0;
+    color: var(--primary-color);
+}
+
+button {
+    font-family: var(--secondry-font);
+    line-height: 2;
+    font-size: 18px;
+    font-weight: 500;
+    width: 180px;
+    height: 45px;
+    /* padding: 3px 20px; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit {
+    background-color: var(--fourth-color);
+    color: var(--fifth-color);
+    border: 2px solid var(--fifth-color);
+    margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: var(--fifth-color);
+    color: var(--fourth-color);
+}

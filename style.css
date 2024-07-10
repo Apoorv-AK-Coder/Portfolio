@@ -80,6 +80,7 @@ navbar ul a {
 
 .column {
     flex: 1;
+    margin: auto;
 }
 
 .d-flex {
@@ -135,7 +136,7 @@ h3 {
 }
 
 .hero {
-    margin: auto;
+    margin-top: auto;
 }
 
 .skillsbg {

@@ -1,0 +1,435 @@
+/* Global CSS Starts Here*/
+@import url('https://fonts.googleapis.com/css2?family=Urbanist');
+@import url('https://fonts.googleapis.com/css2?family=Sora');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento');
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: var(--secondary-color);
+}
+
+/*rgb(135, 80, 247)
+rgb(16, 27, 48)*/
+
+:root {
+    --primary-color: #8750f7;
+    --secondary-color: #101b30;
+    --third-color: #ffffff;
+    --fourth-color: #141414;
+    /*fonts*/
+    --primary-font: Urbanist;
+    --secondary-font: Sora;
+    --third-font: Sacramento;
+}
+
+.row {
+    width: 1240px;
+    margin: auto;
+    padding: 6% 20px;
+}
+
+.column {
+    flex: auto;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+p,
+li {
+    font-family: var(--secondary-font);
+    line-height: 2;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: var(--third-color);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--primary-font);
+    line-height: 1.5;
+    color: var(--third-color);
+    letter-spacing: 2px;
+}
+
+:is(h1) {
+    font-family: var(--third-font);
+    font-size: 85px;
+    font-weight: 400;
+    margin: 10px 0;
+    /* line-height: 2; */
+    background: linear-gradient(to right, var(--primary-color), var(--primary-color), #ffffff, #fff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+:is(h2) {
+    font-size: 37px;
+    font-weight: 600;
+    color: var(--third-color);
+}
+
+:is(h3) {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 15px 0;
+    color: var(--third-color);
+}
+
+:is(h4) {
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--third-color);
+}
+
+:is(button) {
+    font-family: var(--secondary-font);
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 50px;
+    margin: 0;
+    padding: 0;
+    padding: 7px 30px;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.bg1 {
+    background-image: linear-gradient(45deg, rgba(16, 27, 48, 0.9), rgba(0, 0, 0, 0.7)), url(./asset/bg1.mp4);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    video {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .row {
+        height: 100vh;
+        margin: auto;
+    }
+
+    .container {
+        background-color: transparent !important;
+
+    }
+
+    .column {
+        margin: auto;
+        text-align: center;
+
+        p {
+            width: 60%;
+            margin: auto;
+        }
+    }
+}
+
+.header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+
+    .head {
+        width: 1220px;
+        margin: auto;
+        padding: 20px 0;
+
+        .show {
+            width: 50px;
+            height: 45px;
+            border: 2px solid var(--third-color);
+            padding: 10px 15px;
+
+            i {
+                font-size: 20px;
+                color: white;
+                margin: auto;
+            }
+
+            .center {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .hide {
+        position: absolute;
+        width: 35%;
+        height: 100vh;
+        background-color: rgba(16, 27, 48);
+        padding: 50px;
+        top: 0;
+        left: 0;
+
+        p {
+            font-size: 30px;
+        }
+
+        li {
+            text-align: center;
+            list-style-type: none;
+            padding: 10px 0;
+            margin: 10px 0;
+
+            a {
+                color: var(--third-color);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline wavy;
+            }
+        }
+
+        :is(button) {
+            background-color: transparent;
+            border: 2px dotted var(--primary-color);
+            margin: auto;
+            color: var(--third-color);
+
+            :is(i) {
+                margin-left: 5px;
+            }
+
+            cursor: grab;
+            border-radius: 50px;
+        }
+
+        :is(button):hover {
+            background-color: var(--primary-color);
+        }
+    }
+
+    i {
+        cursor: pointer;
+    }
+
+    .icon {
+        width: 1190px;
+        text-align: right;
+        gap: 10px !important;
+
+        :is(i) {
+            color: var(--third-color);
+            margin-left: 10px;
+            border: 1px solid var(--third-color);
+            padding: 10px 12px;
+            font-size: 25px;
+            border-radius: 100%;
+            cursor: pointer;
+        }
+    }
+}
+
+.navhide {
+    display: none;
+}
+
+.about {
+    img {
+        width: 400px;
+        border: 2px solid var(--primary-color);
+        border-radius: 100%;
+        padding-top: 20px;
+    }
+}
+
+.usps {
+    background-color: var(--primary-color);
+    .row {
+        gap: 10px;
+    }
+    .column {
+        margin: 0;
+        flex: 1;
+        background-color: var(--third-color);
+        text-align: center;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        padding-bottom: 40px;
+    }
+    
+    .details {
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+        background-image: linear-gradient(to bottom, var(--secondary-color), var(--primary-color));
+        padding: 15px 15px 50px 15px;
+    }
+
+    img {
+        margin-top: 10px;
+        width: 80px;
+    }
+
+    p {font-size: 14px;}
+}
+
+.skills {
+    .column {
+        text-align: center;
+        p {
+            width: 60%;
+            margin: auto;
+        }
+    }
+    .skillsec {
+        margin-top: 25px;
+        display: grid;
+        gap: 20px 20px;
+        grid-template-columns: auto auto auto auto;
+    
+        :is(div) {
+            img {
+                width: 75px;
+                background-color: var(--third-color);
+                padding: 10px;
+                border-radius: 100%;
+            }
+    
+            h3 {
+                margin: auto 0;
+                width: 100%;
+                background-color: var(--primary-color);
+                clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 0 50%);
+                font-size: 25px;
+                padding: 5px 0;
+            }
+        }
+    }
+}
+
+.education {
+    background-color: var(--primary-color);
+    text-align: center;
+    .edu {
+        padding: 1px;
+        margin-top: 20px;
+        background-color: var(--third-color);
+        border-radius: 10px;
+        
+        .titel {
+            padding: 20px;
+            h3, p {
+                margin: 0;
+                color: var(--secondary-color);
+            }
+        }
+
+        .details {
+            padding: 20px;
+            background-image: linear-gradient(to top, var(--secondary-color), var(--primary-color)) ;
+            border-radius: 0 0 10px 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .row {
+        padding: 20px;
+        width: 100% !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    .gap {
+        gap: 0;
+    }
+
+    .head {
+        width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .hero {
+        .row {
+            height: 100vh !important;
+            margin: auto !important;
+            padding-top: 28vh !important;
+        }
+
+        .column {
+            margin: auto !important;
+
+            p {
+                width: 100%;
+                margin: auto;
+            }
+        }
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 53px;
+    }
+
+    .header {
+        .hide {
+            width: 70% !important;
+            padding: 25px;
+        }
+    }
+
+    .about {
+        img {
+            width: 75% !important;
+        }
+    }
+
+    .usps {
+        p {
+            font-size: 16px;
+        }
+    }
+    .skills {
+        p {
+            width: 100% !important;
+        }
+        .skillsec {
+            grid-template-columns: auto;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 {
   "name": "react-essentials-start",
   "version": "0.0.0",
-  "homepage": "https://apoorv-ak-coder.github.io/My-Portfolio",
+  "homepage": "https://apoorv-ak-coder.github.io/Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "react-scripts build",

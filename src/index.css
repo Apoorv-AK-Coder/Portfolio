@@ -118,13 +118,6 @@ h4 {
     gap: 20px;
 }
 
-.bg1 {
-    background-image: linear-gradient(45deg, rgba(16, 27, 48, 0.9), rgba(0, 0, 0, 0.7)), url(./asset/bg1.mp4);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .hero {
     video {
         position: fixed;
@@ -139,11 +132,6 @@ h4 {
     .row {
         height: 100vh;
         margin: auto;
-    }
-
-    .container {
-        background-color: transparent !important;
-
     }
 
     .column {
@@ -271,9 +259,11 @@ h4 {
 
 .usps {
     background-color: var(--primary-color);
+
     .row {
         gap: 10px;
     }
+
     .column {
         margin: 0;
         flex: 1;
@@ -283,7 +273,7 @@ h4 {
         clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
         padding-bottom: 40px;
     }
-    
+
     .details {
         border-radius: 10px;
         clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
@@ -296,23 +286,27 @@ h4 {
         width: 80px;
     }
 
-    p {font-size: 14px;}
+    p {
+        font-size: 14px;
+    }
 }
 
 .skills {
     .column {
         text-align: center;
+
         p {
             width: 60%;
             margin: auto;
         }
     }
+
     .skillsec {
         margin-top: 25px;
         display: grid;
         gap: 20px 20px;
         grid-template-columns: auto auto auto auto;
-    
+
         :is(div) {
             img {
                 width: 75px;
@@ -320,7 +314,7 @@ h4 {
                 padding: 10px;
                 border-radius: 100%;
             }
-    
+
             h3 {
                 margin: auto 0;
                 width: 100%;
@@ -336,15 +330,18 @@ h4 {
 .education {
     background-color: var(--primary-color);
     text-align: center;
+
     .edu {
         padding: 1px;
         margin-top: 20px;
         background-color: var(--third-color);
         border-radius: 10px;
-        
+
         .titel {
             padding: 20px;
-            h3, p {
+
+            h3,
+            p {
                 margin: 0;
                 color: var(--secondary-color);
             }
@@ -352,11 +349,74 @@ h4 {
 
         .details {
             padding: 20px;
-            background-image: linear-gradient(to top, var(--secondary-color), var(--primary-color)) ;
+            background-image: linear-gradient(to top, var(--secondary-color), var(--primary-color));
             border-radius: 0 0 10px 10px;
         }
     }
 }
+
+.experience {
+    text-align: center;
+
+    .details {
+        border: 2px solid var(--third-color);
+        text-align: left;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .left {
+        border-radius: 8px 0 0 8px;
+        background-color: white;
+        padding: 30px;
+        width: 90%;
+
+        /* margin: 0; */
+        /* flex: 1; */
+        h3,
+        h4,
+        p {
+            color: var(--secondary-color);
+            margin: 0;
+        }
+    }
+
+    .right {
+        /* flex: 1; */
+        padding: 30px 30px 30px 50px;
+    }
+}
+
+.work {
+    background-color: var(--primary-color);
+
+    iframe {
+        height: 300px;
+        background-color: var(--third-color);
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    
+    .slider-content {
+        margin: 0 auto;
+    }
+
+    button {
+        border: none;
+        padding: 10px;
+    }
+
+    .prev {
+        margin: auto 0;
+    }
+
+    .next {
+        margin: auto 0 auto auto;
+    }
+}
+
 
 @media only screen and (max-width: 1024px) {
     .d-flex {
@@ -424,12 +484,26 @@ h4 {
             font-size: 16px;
         }
     }
+
     .skills {
         p {
             width: 100% !important;
         }
+
         .skillsec {
             grid-template-columns: auto;
+        }
+    }
+
+    .experience {
+        .left {
+            padding: 15px 20px !important;
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .right {
+            padding: 20px 20px 20px 35px;
         }
     }
 }

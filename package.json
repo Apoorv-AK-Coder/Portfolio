@@ -20,6 +20,7 @@
     "react-ga4": "^2.1.0",
     "react-router-dom": "^6.25.1",
     "react-scripts": "^5.0.1",
+    "react-slick": "^0.30.2",
     "script": "^0.1.4"
   },
   "devDependencies": {

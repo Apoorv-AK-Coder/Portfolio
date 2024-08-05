@@ -9,6 +9,8 @@ import AboutMe from './components/about-me.jsx';
 import USP from './components/usp.jsx';
 import Skills from './components/skills.jsx';
 import Education from './components/education.jsx';
+import Experience from './components/experience.jsx';
+import Work from './components/work.jsx';
 
 export default function App() {
   const location = useLocation();
@@ -23,6 +25,8 @@ export default function App() {
       <USP />
       <Skills />
       <Education />
+      <Experience />
+      <Work />
     </>
   );
 }
